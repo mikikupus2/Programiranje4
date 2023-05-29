@@ -1,0 +1,52 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<div>
+    <!-- Single statement block -->
+    @{ var myMessage = "Hello World"; }
+
+    <!-- Inline expression or variable -->
+    <p>The value of myMessage is: @myMessage</p>
+
+    <!-- Multi-statement block -->
+    @{
+        var greeting = "Welcome to our site!";
+        var weekDay = DateTime.Now.DayOfWeek;
+        var greetingMessage = greeting + " Here in Huston it is: " + weekDay;
+    }
+    <p>The greeting is: @greetingMessage</p>
+</div>
+<div>
+    <table border="1">
+        <tr>
+            <th width="100px">Name</th>
+            <td width="100px">Value</td>
+        </tr>
+        <tr>
+            <td>Day</td>
+            <td>@DateTime.Now.Day</td>
+        </tr>
+        <tr>
+            <td>Month</td>
+            <td>@DateTime.Now.Month</td>
+        </tr>
+        <tr>
+            <td>Year</td>
+            <td>@DateTime.Now.Year</td>
+        </tr>
+        <tr>
+            <td>Hour</td>
+            <td>@DateTime.Now.Hour</td>
+        </tr>
+        <tr>
+            <td>Minute</td>
+            <td>@DateTime.Now.Minute</td>
+        </tr>
+        <tr>
+            <td>Second</td>
+            <td>@DateTime.Now.Second</td>
+        </tr>
+        @for (var i = 10; i < 21; i++)
+        {<p>Line @i</p>}
+    </table>
+</div>

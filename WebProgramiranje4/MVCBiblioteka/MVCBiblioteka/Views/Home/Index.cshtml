@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewBag.Title = "Knjige";
+}
+<style>
+    td{
+        padding:10px;
+    }
+    th {
+        padding: 10px;
+    }
+</style>
+<h2>Knjige</h2>
+<table border="1">
+    <tr>
+        <th>ISBN</th>
+        <th>Stanje</th>
+        <th>Citano</th>
+        <th>Naslov</th>
+    </tr>
+    @foreach (MVCBiblioteka.Models.Knjiga knjiga in Model)
+    {
+
+        <tr>
+            <td>@knjiga.ISBN</td>
+            <td>@knjiga.Stanje</td>
+            <td>@knjiga.Citano</td>
+            <td>@knjiga.Naziv</td>
+        </tr>
+    }
+</table>

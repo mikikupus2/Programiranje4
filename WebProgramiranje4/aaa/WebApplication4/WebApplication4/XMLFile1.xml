@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Biblioteka>
+  <Knjiga
+    ISBN="532523">
+    <Naslov>gsegsegs</Naslov>
+    <Stanje>21</Stanje>
+    <Citano>421</Citano>
+  </Knjiga>
+  <Knjiga
+    ISBN="43634">
+    <Naslov>rdhdrhdrhrd</Naslov>
+    <Stanje>21</Stanje>
+    <Citano>42</Citano>
+  </Knjiga>
+  <Knjiga
+    ISBN="532352">
+    <Naslov>hrdhrdhrd</Naslov>
+    <Stanje>23</Stanje>
+    <Citano>53</Citano>
+  </Knjiga>
+</Biblioteka>

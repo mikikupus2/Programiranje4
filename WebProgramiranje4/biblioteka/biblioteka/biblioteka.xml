@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<biblioteka>
+  <knjiga
+    isbn="35">
+    <naslov>Veb programiranje</naslov>
+    <stanje>10</stanje>
+    <citano>111</citano>
+  </knjiga>
+  <knjiga
+    isbn="35">
+    <naslov>Programiranje</naslov>
+    <stanje>10</stanje>
+    <citano>222</citano>
+  </knjiga>
+  <knjiga
+    isbn="222">
+    <naslov>ggggg</naslov>
+    <stanje>55</stanje>
+    <citano>155</citano>
+  </knjiga>
+  <knjiga
+    isbn="35">
+    <naslov>aaaaaaaa</naslov>
+    <stanje>20</stanje>
+    <citano>176</citano>
+  </knjiga>
+</biblioteka>

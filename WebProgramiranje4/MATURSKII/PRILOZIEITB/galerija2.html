@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Galerija slika II</title>
+    <script type="text/javascript">
+        var slike = [], x = 0;
+        slike[0] = "SLIKE/herc.png";
+        slike[1] = "SLIKE/Karo.png";
+        slike[2] = "SLIKE/pik.png";
+        slike[3] = "SLIKE/tref.png";
+        function Prvaslika()
+        {
+            document.getElementById("slika").src = slike[0];
+        }
+        function Prikaz(ind)
+        {/*odredjuje indeks slike koju treba prikazati kao veliku sliku*/
+            document.getElementById("slika").src = slike[ind];
+        }
+        function Sledeca() {
+            /*x nam pamti indeks slike koja se prikazuje*/
+            x = (x == slike.length - 1) ? 0 : x + 1;
+            /*if (x == slike.length - 1)
+             x=0
+             else
+             x=x+1*/
+            document.getElementById("slika").src = slike[x];
+        }
+        function Prethodna() {
+            if (x == 0)
+                x = slike.length - 1;
+            else
+                x = x - 1;
+            document.getElementById("slika").src = slike[x];
+        }
+    </script>
+    <style>
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body onload="Prvaslika()">
+    <h1 align="center">Galerija slika</h1>
+    <img id="slika" src="" height="200" width="200" />
+    <p align="center">
+        <input id="pret" type="button" value="<<< Prethodna"
+               onclick="Prethodna()" />
+        <input id="sled" type="button" value="Sledeca >>>"
+               onclick="Sledeca()" />
+    </p>
+    <p align="center">
+        <table align="center" border="1">
+            <tr>
+                <td>
+                    <img id="img1" src="SLIKE/herc.png" height="45" width="45" onclick="Prikaz(0)" />
+                </td>
+                <td>
+                    <img id="img2" src="SLIKE/Karo.png" height="45" width="45" onclick="Prikaz(1)" />
+                </td>
+                <td>
+                    <img id="img3" src="SLIKE/pik.png" height="45" width="45" onclick="Prikaz(2)" />
+                </td>
+                <td>
+                    <img id="img4" src="SLIKE/tref.png" height="45" width="45" onclick="Prikaz(3)" />
+                </td>
+            </tr>
+        </table>
+</body>
+</html>

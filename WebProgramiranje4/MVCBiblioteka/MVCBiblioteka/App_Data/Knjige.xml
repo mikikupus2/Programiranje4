@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Knjige>
+  <Knjiga>
+    <KnjigaISBN>1</KnjigaISBN>
+    <KnjigaStanje>9</KnjigaStanje>
+    <KnjigaCitano>4</KnjigaCitano>
+    <KnjigaNaziv>Grcka Mitologija</KnjigaNaziv>
+  </Knjiga>
+  <Knjiga>
+    <KnjigaISBN>2</KnjigaISBN>
+    <KnjigaStanje>3</KnjigaStanje>
+    <KnjigaCitano>7</KnjigaCitano>
+    <KnjigaNaziv>Ana Kareljina</KnjigaNaziv>
+  </Knjiga>
+  <Knjiga>
+    <KnjigaISBN>3</KnjigaISBN>
+    <KnjigaStanje>2</KnjigaStanje>
+    <KnjigaCitano>9</KnjigaCitano>
+    <KnjigaNaziv>Prokleta Avlija</KnjigaNaziv>
+  </Knjiga>
+  <Knjiga>
+    <KnjigaISBN>4</KnjigaISBN>
+    <KnjigaStanje>5</KnjigaStanje>
+    <KnjigaCitano>2</KnjigaCitano>
+    <KnjigaNaziv>Zlocin i Kazna</KnjigaNaziv>
+  </Knjiga>
+  <Knjiga>
+    <KnjigaISBN>5</KnjigaISBN>
+    <KnjigaStanje>2</KnjigaStanje>
+    <KnjigaCitano>15</KnjigaCitano>
+    <KnjigaNaziv>Na Drini Cuprija</KnjigaNaziv>
+  </Knjiga>
+</Knjige>

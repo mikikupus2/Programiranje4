@@ -1,0 +1,26 @@
+﻿h1 {
+    color: rgb(215, 203, 41);
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+img {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    border: 5px solid #eef19a;
+}
+.popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+table, tr, td{
+    border: solid;
+    border-width:thick;
+}

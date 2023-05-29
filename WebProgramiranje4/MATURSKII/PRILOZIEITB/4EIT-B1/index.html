@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Foto galerija</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Фото галерија</h1>
+    </header>
+    <ul>
+      <div>
+        <li><a href="#">Почетна</a></li>
+        <li><a href="#">О аутору</a></li>
+        <li><a href="#">Упутство</a></li>
+      </div>
+      <li class="right"><a href="#">Završni ispit</a></li>
+    </ul>
+    <div class="gallery-container">
+      <div class="scroll">
+        <p id="main-image-caption">
+          Артемидин храм у Ефесу (грч. Artemision) је био грчки храм посвећен
+          богињи Артемиди, подигнут око 550. п. н. е. Данас се од храма могу
+          видети само остаци темеља и место на којем се овај храм некада
+          налазио, недалеко од турског града Селчука и на око 50 km од града
+          Измира. Иако темељ храма потиче још из 7. века п. н. е, грађевина је
+          конструисана и подигнута 550. године п. н. е. Новац за изградњу
+          велелепног мермерног храма издвојио је лидијски краљ Крез, а храм је
+          осмислио и пројектовао грчки архитекта Херосифрон. Храм је био украшен
+          бронзаним статуама које су извајали најумешнији уметници тог доба:
+          Фидија, Поликлеит, Кресилас и Фрадмон.
+        </p>
+      </div>
+      <img id="main-image" src="Slike/artemidin_hram.jpg" alt="Slika 1" />
+      <div class="thumbnail-container">
+        <img
+          class="thumbnail"
+          src="Slike/artemidin_hram.jpg"
+          alt="Slika 2"
+          onclick="PromeniGlavnuSliku('Slike/artemidin_hram.jpg', '0')"
+        />
+        <img
+          class="thumbnail"
+          src="Slike/faros_aleksandrije.jpg"
+          alt="Slika 3"
+          onclick="PromeniGlavnuSliku('Slike/faros_aleksandrije.jpg', '1')"
+        />
+        <img
+          class="thumbnail"
+          src="Slike/kolos_rodosa.jpg"
+          alt="Slika 4"
+          onclick="PromeniGlavnuSliku('Slike/kolos_rodosa.jpg', '2')"
+        />
+        <img
+          class="thumbnail"
+          src="Slike/mauzolej_halikarnsa.jpg"
+          alt="Slika 5"
+          onclick="PromeniGlavnuSliku('Slike/mauzolej_halikarnsa.jpg', 3)"
+        />
+        <img
+          class="thumbnail"
+          src="Slike/piramida_gize.jpg"
+          alt="Slika 6"
+          onclick="PromeniGlavnuSliku('Slike/piramida_gize.jpg', 4)"
+        />
+        <img
+          class="thumbnail"
+          src="Slike/viseci_vrtovi.jpg"
+          alt="Slika 7"
+          onclick="PromeniGlavnuSliku('Slike/viseci_vrtovi.jpg', 5)"
+        />
+        <img
+          class="thumbnail"
+          src="Slike/zevsova_statua.jpg"
+          alt="Slika 8"
+          onclick="PromeniGlavnuSliku('Slike/zevsova_statua.jpg', 6)"
+        />
+        <img
+          class="thumbnail"
+          src="Slike/artemidin_hram.jpg"
+          alt="Slika 9"
+          onclick="PromeniGlavnuSliku('Slike/artemidin_hram.jpg', 1)"
+        />
+        <img
+          class="thumbnail"
+          src="Slike/faros_aleksandrije.jpg"
+          alt="Slika 10"
+          onclick="PromeniGlavnuSliku('Slike/faros_aleksandrije.jpg', 2)"
+        />
+      </div>
+    </div>
+  </body>
+</html>

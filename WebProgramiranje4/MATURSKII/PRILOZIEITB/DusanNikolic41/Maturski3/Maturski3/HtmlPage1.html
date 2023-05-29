@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zvuci instrumenata</title>
+</head>
+<link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
+<body style="background-color:lightgreen;">
+    <h1>Zvuci instrumenata</h1>
+    <div class="topnav">
+        <a class="active" href="HtmlPage1.html">ПОЧЕТНА</a>
+        <a href="Autor.html">О АУТОРУ</a>
+        <a href="Uputstvo.html">УПУТСТВО</a>
+    </div>
+    <table>
+        <tr>
+            <th>Naziv</th>
+            <th>Slika</th>
+            <th>Zvuk</th>
+        </tr>
+        <tr>
+            <td>Bubnjevi</td>
+            <td><img src="/Slike/bubnjevi.png" alt=""></td>
+            <td><p><img onmouseover="PlayAudio(0)" onclick="Prikazitext(1)" onmouseout="setTimeout(PauseAudio,300)" <img src="/Slike/zvuk.png" alt=""></p>
+            <p><a href="https://sr.wikipedia.org/wiki/%D0%91%D1%83%D0%B1%D0%B0%D1%9A">saznaj vise</a></p></td>
+        </tr>
+        <tr>
+            <td>Harmonika</td>
+            <td> <img src="/Slike/harmonika.png" alt=""></td>
+            <td><p><img onmouseover="PlayAudio(1)" onclick="Prikazitext(2)" onmouseout="setTimeout(PauseAudio,300)" src="/Slike/zvuk.png" alt=""></p>
+                <p><a href="https://sr.wikipedia.org/wiki/%D0%A5%D0%B0%D1%80%D0%BC%D0%BE%D0%BD%D0%B8%D0%BA%D0%B0">saznaj vise</a></p></td>
+        </tr>
+        <tr>
+            <td>Klavir</td>
+            <td> <img src="/Slike/klavir.png" alt=""></td>
+            <td><p><img onmouseover="PlayAudio(2)" onclick="Prikazitext(3)" onmouseout="setTimeout(PauseAudio,300)" src="/Slike/zvuk.png" alt=""></p>
+                <p><a href="https://sr.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B0%D0%B2%D0%B8%D1%80">saznaj vise</a></p></td>
+        </tr>
+        <tr>
+            <td>Truba</td>
+            <td> <img src="/Slike/truba.jpg" alt=""></td>
+            <td><p><img onmouseover="PlayAudio(3)" onclick="Prikazitext(2)" onmouseout="setTimeout(PauseAudio,300)" src="/Slike/zvuk.png" alt=""></p>
+                <p><a href="https://sr.wikipedia.org/wiki/%D0%A2%D1%80%D1%83%D0%B1%D0%B0">saznaj vise</a></p></td>
+        </tr>
+        <tr>
+            <td>Violina</td>
+            <td><img src="/Slike/violina.png" alt=""></td>
+            <td><p><img onmouseover="PlayAudio(1)" onclick="Prikazitext(2)" onmouseout="setTimeout(PauseAudio,300)" src="/Slike/zvuk.png" alt=""></p>
+                <p><a href="https://sr.wikipedia.org/wiki/%D0%92%D0%B8%D0%BE%D0%BB%D0%B8%D0%BD%D0%B0">saznaj vise</a></p></td>
+        </tr>
+    </table>
+
+
+</body>
+</html>

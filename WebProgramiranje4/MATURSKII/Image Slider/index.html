@@ -1,0 +1,49 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js"></script>
+    <title>Document</title>
+  </head>
+  <body onload="showSlides(1)">
+    <header>
+      <center><h1 class="naslov">ОСНОВНА ШКОЛА "СОЊА МАРИНКОВИЋ"</h1></center>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="">Почетна</a></li>
+        <li><a href="">О аутору</a></li>
+        <li><a href="">Упутство</a></li>
+      </ul>
+    </nav>
+    <br />
+    <br />
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <center><img src="slika1.jpg" style="width: 50%" /></center>
+      </div>
+
+      <div class="mySlides fade">
+        <center><img src="slika2.png" style="width: 50%" /></center>
+      </div>
+
+      <div class="mySlides fade">
+        <center><img src="slika3.jpg" style="width: 50%" /></center>
+      </div>
+      <div class="mySlides fade">
+        <center><img src="slika4.jpg" style="width: 50%" /></center>
+      </div>
+    </div>
+    <br />
+
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+    <footer></footer>
+  </body>
+</html>

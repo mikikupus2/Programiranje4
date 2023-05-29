@@ -1,0 +1,37 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@model List<MVCAplikacijaZaRadSaBazom.Models.Ucenik>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Prezime</th>
+            <th>Ime</th>
+            <th>Pol</th>
+            <th>Email</th>
+            <th>Razred i odeljenje</th>
+            <th>Prosečna ocena</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(MVCAplikacijaZaRadSaBazom.Models.Ucenik ucenik in Model)
+        {
+            <tr>
+                <td>@ucenik.Id</td>
+                <td>@ucenik.Prezime</td>
+                <td>@ucenik.Ime</td>
+                <td>@ucenik.Pol</td>
+                <td>@ucenik.Email</td>
+                <td>@ucenik.Razred_i_odeljenje</td>
+                <td>@ucenik.Prosecna_ocena</td>
+                <td>
+                    <a href="@Url.Action("Edit", new {id=ucenik.Id})">Izmeni</a>
+                    <a href="@Url.Action("Delete", new {id=ucenik.Id})">Obriši</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

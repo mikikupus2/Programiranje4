@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        var p 
+        function Startv() {
+            p=setInterval(Prikazi, 1000)
+        }
+        function Stopv() {
+            clearInterval(p)
+        }
+        function Prikazi() {
+            document.getElementById("prikaz").innerHTML=new Date()
+        }
+    </script>
+</head>
+<body>
+    <h1 id="prikaz"></h1>
+    <input id="Button1" type="button" value="Start"
+           onclick="Startv()"/>
+    <input id="Button2" type="button" value="Stop" 
+           onclick="Stopv()"/>
+</body>
+</html>

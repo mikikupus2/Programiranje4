@@ -1,0 +1,37 @@
+﻿body {
+    background-color: greenyellow
+}
+
+.topnav {
+    background-color: #6a8532;
+    overflow: hidden;
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    margin-left: 25%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 200px;
+}
+
+
+    .topnav a:hover {
+        background-color: black;
+        color: black;
+    }
+
+    .topnav a.active {
+        background-color: #6a8532;
+        color: #eef19a;
+    }

@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes"?>
+<podaci>
+  <Table1>
+    <RB>1</RB>
+    <IME_GRADA>Smederevo</IME_GRADA>
+    <TEMPERATURA>17.2</TEMPERATURA>
+  </Table1>
+  <Table1>
+    <RB>2</RB>
+    <IME_GRADA>Beograd</IME_GRADA>
+    <TEMPERATURA>16.5</TEMPERATURA>
+  </Table1>
+  <Table1>
+    <RB>3</RB>
+    <IME_GRADA>Kovin</IME_GRADA>
+    <TEMPERATURA>18.2</TEMPERATURA>
+  </Table1>
+  <Table1>
+    <RB>4</RB>
+    <IME_GRADA>Pozarevac</IME_GRADA>
+    <TEMPERATURA>11.2</TEMPERATURA>
+  </Table1>
+</podaci>

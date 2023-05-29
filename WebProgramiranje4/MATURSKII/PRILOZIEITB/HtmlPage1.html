@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Menjanje slika</title>
+    <script type="text/javascript">
+        var p
+        var slike = [], x = 0, prekidac = 0;
+        slike[0] = "SLIKE/herc.png";
+        slike[1] = "SLIKE/Karo.png";
+        slike[2] = "SLIKE/pik.png";
+        slike[3] = "SLIKE/tref.png";
+        function Sledeca() {
+            /*x nam pamti indeks slike koja se prikazuje*/
+            x = (x == slike.length - 1) ? 0 : x + 1;
+            /*if (x == slike.length - 1)
+             x=0
+             else
+             x=x+1*/
+            document.getElementById("slika").src = slike[x];
+        }
+        function startTimer() {/*pokrece slajdovanje*/
+            if (prekidac == 0) {/*ako je prekidac 0, slajdovanje je stopirano
+             za 1 slajder je aktivan*/ 
+                prekidac = 1;
+                p = setInterval(Sledeca, 2000);
+            }
+        }
+        function f1() {/*zaustavlja slajdovanje*/
+            clearInterval(p)
+            prekidac = 0;
+        }
+                /*Potrebno je dodati slike u folder slike u projektu*/
+    </script>
+    <style>
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body onload="startTimer()">
+    <h1 align="center">Slajdovanje slika</h1>
+    <img id="slika" src="" alt="Slajdovanje krece za 2 sekunde"
+         height="200" width="200" />
+    <p align="center">
+        <input id="start" type="button" value="Kreni"
+               onclick="startTimer()" />
+    </p>
+    <p align="center">
+        <input id="stop" type="button" value="Stani"
+               onclick="f1()" />
+    </p>
+</body>
+</html>

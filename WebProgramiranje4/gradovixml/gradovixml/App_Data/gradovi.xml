@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Gradovi>
+  <Grad>
+    <GradID>1</GradID>
+    <GradIme>Smederevo</GradIme>
+    <Postbroj>11300</Postbroj>
+  </Grad>
+  <Grad>
+    <GradID>2</GradID>
+    <GradIme>Beograd</GradIme>
+    <Postbroj>11000</Postbroj>
+  </Grad>
+  <Grad>
+    <GradID>3</GradID>
+    <GradIme>Kovin</GradIme>
+    <Postbroj>26220</Postbroj>
+  </Grad>
+  <Grad>
+    <GradID>4</GradID>
+    <GradIme>Nis</GradIme>
+    <Postbroj>18000</Postbroj>
+  </Grad>
+</Gradovi>

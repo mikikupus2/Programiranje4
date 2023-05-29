@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "Pocetna";
+}
+<table border="1">
+    <tr>
+        <td colspan="3"><h2>Tabela Gradovi</h2></td>
+    </tr>
+    <tr>
+        <th>&nbsp;ID grada&nbsp;</th>
+        <th>&nbsp;Ime grada&nbsp;&nbsp;</th>
+        <th>Postanski broj</th>
+    </tr>
+    @foreach(gradovixml.Models.grad g in Model)
+    {
+        <tr>
+            <td>@g.id</td>
+            <td>@g.ime</td>
+            <td>@g.pbr</td>
+        </tr>
+    }
+</table>

@@ -1,0 +1,112 @@
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\slike2.dll.config
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\slike2.dll
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\slike2.pdb
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\csc.exe
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\csc.exe.config
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\csc.rsp
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\csi.exe
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\csi.exe.config
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\csi.rsp
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\Microsoft.Managed.Core.targets
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\System.AppContext.dll
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\System.Collections.Immutable.dll
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\System.Console.dll
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\System.IO.Compression.dll
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\System.IO.FileSystem.dll
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\System.IO.Pipes.dll
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\System.Reflection.Metadata.dll
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\System.Security.AccessControl.dll
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\System.Security.Claims.dll
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\System.Security.Principal.Windows.dll
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\System.ValueTuple.dll
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\System.Xml.XmlDocument.dll
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\System.Xml.XPath.dll
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\vbc.exe
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\vbc.exe.config
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\vbc.rsp
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\VBCSCompiler.exe
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\roslyn\VBCSCompiler.exe.config
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\obj\Debug\slike2.csprojAssemblyReference.cache
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\obj\Debug\slike2.csproj.CoreCompileInputs.cache
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\obj\Debug\slike2.csproj.CopyComplete
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\obj\Debug\slike2.dll
+F:\DISK E\srecko\VEBPROGRAMIRANJE320212022\HTML I Javascript\slike2\slike2\obj\Debug\slike2.pdb
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\slike2.dll.config
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\slike2.dll
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\slike2.pdb
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\csc.exe
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\csc.exe.config
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\csc.rsp
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\csi.exe
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\csi.exe.config
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\csi.rsp
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\System.AppContext.dll
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\System.Console.dll
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\System.IO.Compression.dll
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\System.Security.Claims.dll
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\System.ValueTuple.dll
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\vbc.exe
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\vbc.exe.config
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\vbc.rsp
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\VBCSCompiler.exe
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Matura EIT\Desktop\slike2\slike2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Matura EIT\Desktop\slike2\slike2\obj\Debug\slike2.csprojAssemblyReference.cache
+C:\Users\Matura EIT\Desktop\slike2\slike2\obj\Debug\slike2.csproj.CoreCompileInputs.cache
+C:\Users\Matura EIT\Desktop\slike2\slike2\obj\Debug\slike2.csproj.CopyComplete
+C:\Users\Matura EIT\Desktop\slike2\slike2\obj\Debug\slike2.dll
+C:\Users\Matura EIT\Desktop\slike2\slike2\obj\Debug\slike2.pdb

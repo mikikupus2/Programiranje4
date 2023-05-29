@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
+    
+    <script type="text/javascript">
+        function f1() {
+            document.getElementById("slika2").src =
+                "https://www.w3schools.com/images/w3schools_green.jpg"
+            document.getElementById("slika2").width = "200"
+            document.getElementById("slika2").height = "200"
+        }
+        function f2() {
+            {
+                document.getElementById("prikaz").src = "slike/picasso1.jpg"
+                setTimeout(f3, 3000)
+            }
+        }
+        function f3() {
+
+            document.getElementById("prikaz").src = "slike/picasso2.jpg"
+            setTimeout(f4, 3000)
+        }
+        function f4() {
+            document.getElementById("prikaz").src = "slike/picasso3.jpg"
+            setTimeout(f5, 3000)
+        }
+        function f5() {
+
+            document.getElementById("prikaz").src = "slike/picasso4.png"
+            setTimeout(f6, 3000)
+        }
+        function f6() {
+            document.getElementById("prikaz").src = "slike/picasso5.jpg"
+            setTimeout(f2, 3000)
+        }
+        function f7() {
+            document.getElementById("prikaz").src = "slike/picasso6.jpg"
+            setTimeout(f2, 3000)
+        }
+
+    </script>
+</head>
+<body onload="f2()">
+    <h1><back-color:blue>FOTO GALERIJA</back-color:blue></h1>
+    <div class="topnav">
+        <a class="active" href="#Pocetna">Почетна</a>
+        <a href="o autoru.html">О аутору</a>
+        <a href="uputstvo.html">Упутство</a>
+    </div>
+   
+         
+                <div align="center">
+                    <img id="prikaz" src="" alt="dfdsfgds"
+                        width="200" height="200" />
+                    <p id="p1">
+            </div>
+</body>
+</html >

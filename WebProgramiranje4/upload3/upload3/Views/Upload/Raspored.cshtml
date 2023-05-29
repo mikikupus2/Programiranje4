@@ -1,0 +1,50 @@
+﻿@using upload3.Models
+@{
+    ViewBag.Title = "Raspored";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model List<Raspored>
+<h2>RASPORED CASOVA</h2>
+<h3>@ViewBag.Message</h3>
+<style>
+    th {
+        padding: 10px;
+        text-align:center;
+    }
+    td {
+        padding: 10px;
+        text-align: center;
+    }
+</style>
+@if (Model.Count > 0)
+{
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Redni broj</th>
+                <th>Ponedeljak</th>
+                <th>Utorak</th>
+                <th>Sreda</th>
+                <th>Cetvrtak</th>
+                <th>Petak</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 1; i <= Model.Max(r => r.Redni_Broj_Casa); i++)
+            {
+                <tr>
+                    <td><b>@i</b></td>
+                    <td>@(Model.FirstOrDefault(r => r.Dan == "Ponedeljak" && r.Redni_Broj_Casa == i)?.Predmet)</td>
+                    <td>@(Model.FirstOrDefault(r => r.Dan == "Utorak" && r.Redni_Broj_Casa == i)?.Predmet)</td>
+                    <td>@(Model.FirstOrDefault(r => r.Dan == "Sreda" && r.Redni_Broj_Casa == i)?.Predmet)</td>
+                    <td>@(Model.FirstOrDefault(r => r.Dan == "Cetvrtak" && r.Redni_Broj_Casa == i)?.Predmet)</td>
+                    <td>@(Model.FirstOrDefault(r => r.Dan == "Petak" && r.Redni_Broj_Casa == i)?.Predmet)</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Nema rasporeda casova.</p>
+}

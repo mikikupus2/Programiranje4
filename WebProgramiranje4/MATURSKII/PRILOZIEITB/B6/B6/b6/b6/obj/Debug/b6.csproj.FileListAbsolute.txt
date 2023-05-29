@@ -1,0 +1,112 @@
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\b6.dll.config
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\b6.dll
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\b6.pdb
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\csc.exe
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\csc.exe.config
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\csc.rsp
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\csi.exe
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\csi.exe.config
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\csi.rsp
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\System.AppContext.dll
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\System.Console.dll
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\System.IO.Compression.dll
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\System.IO.Pipes.dll
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\System.Security.Claims.dll
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\System.ValueTuple.dll
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\System.Xml.XPath.dll
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\vbc.exe
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\vbc.exe.config
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\vbc.rsp
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\VBCSCompiler.exe
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\obj\Debug\b6.csprojAssemblyReference.cache
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\obj\Debug\b6.csproj.CoreCompileInputs.cache
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\obj\Debug\b6.csproj.CopyComplete
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\obj\Debug\b6.dll
+C:\Users\srecko\Desktop\maturski\B6\b6\b6\obj\Debug\b6.pdb
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\b6.dll.config
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\b6.dll
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\b6.pdb
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\csc.exe
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\csc.exe.config
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\csc.rsp
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\csi.exe
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\csi.exe.config
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\csi.rsp
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\System.AppContext.dll
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\System.Console.dll
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\System.IO.Compression.dll
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\System.Security.Claims.dll
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\System.ValueTuple.dll
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\vbc.exe
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\vbc.exe.config
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\vbc.rsp
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\VBCSCompiler.exe
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\obj\Debug\b6.csprojAssemblyReference.cache
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\obj\Debug\b6.csproj.CoreCompileInputs.cache
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\obj\Debug\b6.csproj.CopyComplete
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\obj\Debug\b6.dll
+C:\Users\Matura EIT\Desktop\B6\B6\b6\b6\obj\Debug\b6.pdb
