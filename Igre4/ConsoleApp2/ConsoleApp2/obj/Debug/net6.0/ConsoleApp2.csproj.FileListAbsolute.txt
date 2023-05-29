@@ -1,0 +1,15 @@
+C:\4-1\Mihajlo Randjelovic IV-1\ConsoleApp2\ConsoleApp2\bin\Debug\net6.0\ConsoleApp2.exe
+C:\4-1\Mihajlo Randjelovic IV-1\ConsoleApp2\ConsoleApp2\bin\Debug\net6.0\ConsoleApp2.deps.json
+C:\4-1\Mihajlo Randjelovic IV-1\ConsoleApp2\ConsoleApp2\bin\Debug\net6.0\ConsoleApp2.runtimeconfig.json
+C:\4-1\Mihajlo Randjelovic IV-1\ConsoleApp2\ConsoleApp2\bin\Debug\net6.0\ConsoleApp2.dll
+C:\4-1\Mihajlo Randjelovic IV-1\ConsoleApp2\ConsoleApp2\bin\Debug\net6.0\ConsoleApp2.pdb
+C:\4-1\Mihajlo Randjelovic IV-1\ConsoleApp2\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.csproj.AssemblyReference.cache
+C:\4-1\Mihajlo Randjelovic IV-1\ConsoleApp2\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.GeneratedMSBuildEditorConfig.editorconfig
+C:\4-1\Mihajlo Randjelovic IV-1\ConsoleApp2\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.AssemblyInfoInputs.cache
+C:\4-1\Mihajlo Randjelovic IV-1\ConsoleApp2\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.AssemblyInfo.cs
+C:\4-1\Mihajlo Randjelovic IV-1\ConsoleApp2\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.csproj.CoreCompileInputs.cache
+C:\4-1\Mihajlo Randjelovic IV-1\ConsoleApp2\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.dll
+C:\4-1\Mihajlo Randjelovic IV-1\ConsoleApp2\ConsoleApp2\obj\Debug\net6.0\refint\ConsoleApp2.dll
+C:\4-1\Mihajlo Randjelovic IV-1\ConsoleApp2\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.pdb
+C:\4-1\Mihajlo Randjelovic IV-1\ConsoleApp2\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.genruntimeconfig.cache
+C:\4-1\Mihajlo Randjelovic IV-1\ConsoleApp2\ConsoleApp2\obj\Debug\net6.0\ref\ConsoleApp2.dll
