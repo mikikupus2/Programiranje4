@@ -1,0 +1,829 @@
+ ADO.NET
+(Active Data Objects)
+Priliko koriscenja podataka iz baze od strane neke aplikacije(WinForm,WebForm,...) pristup bazi podataka moguc je u dva razlicita
+rezima:
+1)U konektovanom okruzenju - postoji konekcija(veza) sa serverom baze podataka za sve vreme dok se podaci koriste/azuriraju
+2)Rad u diskonektovanom(prekinutom konekcijom) okruzenju - ovakav rad podrazumeva koriscenje objekta klase DataAdapter preko koga se
+DataSet popunjava podacima iz baze nakon cega se konekcija raskida. Rad sa podacima odvija se u rezimu offline
+
+MessageBox
+1)simple messageBox
+2)MessageBox with title
+3)MesageBox with buttons
+4)MessageBox with icon
+5)MessageBox with default button
+
+MessageBox dialog dijalog sa korisnikom
+
+1.Napisati program za osnovne aritmeticke operacije.Korisnik unosi operande u dva tekstboxa na formi, klikom na komandno dugme
+pokusava da izvrsi zeljenu operaciju i rezultat upise u labeli na formi. Ukoliko je nemoguce pretvoriti sadrzaj textboxova u 
+numericki tip podataka izdati odgovarajucu poruku korisniku i postaviti fokus na textbox sa neispravnim sadrzajem.
+
+int a,b,c
+private void btplus_Click
+/*
+CREATE DATABASE TestBaza;
+GO
+USE TestBaza;
+GO
+CREATE TABLE Student
+(
+	id INT PRIMARY KEY,
+	Ime CHAR(25),
+	Ocena INT,
+);
+GO
+INSERT INTO Student
+VALUES (1,'Marko',10),
+(2,'Milan',8),
+(3,'Borko',9);
+GO*/
+
+DESKTOP-5P0NV5S\SQLEXPRESS01
+Data Source=DESKTOP-5P0NV5S\SQLEXPRESS01;Initial Catalog=TestBaza;Integrated Security=True
+Uspostavljanje konekcije sa bazom
+Konekciju je moguce postaviti u fazi dizajna i u fazi izvrsenja programa.
+Server explorer pa connect to database
+moze i sa Project/Add new data source
+
+
+GridView Data Member mora se namesti
+
+SQlCommand
+using System.Data.SqlClient;
+postoje 4 razlicita konstruktora za klasu SqlCommand
+1) SqlCommand komanda1 = new SqlCommand();
+2) SqlCommand komanda2 = new SqlCommand(SqlConnection conn);
+		       = new SqlCommand(string CommandText);
+		       = new SqlCOmmand(Command,Connection,Transaction)
+
+SqlCommand svojstva
+-CommandText - string
+-Connection
+-Parameters
+             -Text
+-CommandType -Stored Procedure
+	     -Direct Table
+-CommandTimeout - vreme izrazeno u sekundama, koliko cemo vremena cekati odgovor od servera
+-Transcation
+
+SqlCommand metode
+1)ExecuteNonQuery(); -rezutat je ceo broj koji predstavlja broj izmenjenih redova u bazi
+2)ExecuteReader(); - izvrsava objekat DataReader
+3)ExecuteScaler(); -rezultat je podatak iz prvog reda i prve kolone u skupu rezultata
+
+/*Napisati program koji u okviru datagridview kontrole na formi prikazuje podatke iz baze Fakulet2019 sve podatke o 
+studentima iz te tabele koji su na godini studija koja se unosi u textBox na formi. */
+
+Godina: txtgod  PRIKAZI
+dbvstudent
+/*U okviru genericke liste nalaze se elementi koji predstavljaju objekte klase Ucenik(sifra,ime,prezime,telefon,ocene iz programiranja)
+ Omoguciti operacije sa listom:
+1)Dodavanje novog elementa
+2)Prikaz i Uklanjanje iz liste ucenika sa odgovarajucom sifrom
+3)Pregled liste
+4)Izracunavanje i prikazivanje prosecne ocene iz programiranja
+Podatke o uceniku uvek prikazivati na posebnoj formi.
+za aktiviranje svih opcija aktivirati glavni meni,a za dodavanje i izbacivanje iz liste
+na paletu sa alatkama postaviti odgovarajucu kontrolu
+U listi moze biti maksimalno 30 ucenika*/
+
+
+ContextMenuStrip
+Kontekstni meni odnosi se na odgovarajucu kontrolu i prikazuje se desnim klikom na kontrolu za koju su vezani u vreme izvrsenja programa,
+odnosno odgovarajucom kombinacijom tastera(hot key).
+Za kreiranje konteksnog menija potrebno je:
+1)u fazi dizajna postaviti na formu kontrolu ContextMenuStrip i podesiti svojstva.
+2)vezati ovu kontrolu za kontrole na formi za koje ce biti aktivna.
+3)Napisati metodu koja odgovara dogadjaju izbora neke stavke iz kontekstnog menija.
+
+
+/*Na formi postoje 2 textboxa, napraviti context menu koji omogucava kopiranje sadrzaja iz jednog textboxa u drugi.*/
+SQLDataReader
+objekti ove klase koriste se za citanje podataka koje SQL server vraca kao rezultat(skup rezultata) izvrsenja neke komande
+Izvrsava se u konektovanom okruzenju
+Ovaj objekat kreira se kao rezutat izvrsenja metode
+SQLDataReader dr = komanda.ExecuteReader();
+
+bool HasRows
+int RowsAffected
+
+/*Napsati program koji u okviru kontrole GridView na formi prikazuje podatke iz baze biblioteka o citaocima iz beograda. Forma ima 3 taba*/
+
+/*Napisati program koji omogucava:
+1)Rad sa generickom listom ciji su elementi objekti klase Student. Lista podatke dobija iz tabele student, baze Fakultet2019, izvrsavanjem upita ciji tekst
+korisnik unosi u rich textbox na posebnoj formi.
+2)Prikaz liste u kontroli DataGridView
+3)Uklanjanje ili izbacivanje iz liste studenta ciji se broj indexa unosi kao parametar
+4)Brisanje sadrzaja cele liste
+5)Sortiranje liste po broju indexa u rastucem poretku, koje se pokrece iz context menija vezanog za kontrolu ListBox cijim stavkama su prikazani broj,ime i prezime
+ListBox postaviti na formi1 i on u svakom tretnutku odrazava trenutno stanje liste.*/
+
+----Rad sa fajlovima i folderima.
+using System.IO
+File - za rad sa fajlovima
+Directory - za rad sa folderima
+Path - putanja
+
+string sourcepath = "C:\\User\\Test"
+		   @"C:\User\Test"
+string destpath = @"C:\USer\Test1"
+string filename = "podaci.txt"
+string sourcefile = System.IO.Path.Combine(sourcepath, filename)
+string destfile = .....
+
+System.IO.File.Copy(sourcefile,destfile,true);
+
+---Kreiranje foldera
+if(!System.IO.Directory.Exists(destpath))
+	System.IO.Directory.Create(destpath);
+			   .CreateDirectory
+
+Directory.Move(putanja izvornog foldera, putanja gde premestamo)
+
+/*Napisati program koji u listboxu na formi prikazuje sadrzaj nekog foldera na disku.*/
+
+
+-----Open File Dialog
+sluzi za selekciju jednog ili vise fajlova na diskovima
+-Svojstva
+InitialDirectory - string putanja startnog foldera
+DefaultExt - extenzija fajlova po defaultu
+DefaultExt = "txt";
+-Filter = "AllFiles(*.*) |*.*|Text Files |*.txt)"
+                         1               2
+-FilterIndex = 2;
+-ShowReadOnly
+-ReadOnlyChecked
+-CheckFileExists
+-CheckPathExists
+-MultiSelect
+-FileName
+-FileNames
+
+/*U listboxu prikazati nazive selektovanih fajlova iz nekog foldera*/
+
+Kontrola ListView
+ListViewItem 
+	-SubItem
+View = View.Details
+
+Omogucava prikaz stavki na 4 nacina: List, Details, Small Icons, Large Icons
+Glavno svojstvo je objekat klase ListViewItem i ona ima svojstvo SubItem
+
+/*Napisati program koji klikom na komandno dugme prikazuje podatke iz tabela beze u okviru ListView-a*/
+
+Klasa Graphics
+Objekat klase Graphics predstavlja povrsinu po kojoj kucamo(povrsina bilo koje kontrole)..
+Prvo se mora kreirati pozivanjem metode CreateGraphics();
+Klasa graphics sadrzi metode za crtanje raznih oblika izmedju ostalog:
+1-DrawLine
+2-DrawRectangle
+3-DrawEllipse
+4-DrawArc
+5-FillRectangle
+6-FillEllipse
+
+Klasa Pen predstavlja olovku:
+-Color
+-Width
+-Style
+Pen olovka = new Pen(Color.Red,5);
+SolidBrush - cetka;
+boja je odredjena strukturom Color
+Ova struktura sadrzi atribute kojima su predstavljene najcesce koriscene boje(Black,White,Red,Green,Blue,...)
+ali postoji i metoda kojom mozemo da definisemo bilo koju nijansu boje FromARGB(nivo crvene, nivo zelene, nivo plave) 0-255
+
+/*Napisati aplikaciju kojom se klikom na formu prouzrokuje promena broja pozadine slucajno izabranom bojom i u naslovnoj liniji
+ispisuju kordinate tacke na koju smo kliknuli.*/
+
+/*Napisati na formu program koji iscrtava na formi linije kojima je koordinate pocetne tacke odredjene polozajem
+strelice misa u trenutku pritiska, a kranje tacke u trenutku pustanja misa.*/
+
+GRAFICKO PRIKAZIVANJE PODATAKA IZ BAZE
+Chart
+
+using System.Windows.Forms.DataVisualisation.Charting
+-Series
+-Points
+
+/*Baza podataka Firma, tabela ucesce, prikazati tabelarno i graficki zavisnost funkcije zaposlenih od ukupnog broja sati,
+kao i ukupan broj projekata kod funkcije zaposlenih*/
+
+Klasa Timer
+-interval svakih 1000 ms
+Tick
+
+/*Napisati program koji na svaki otkucaj tajmera iscrtava na formi krug proizvoljnog precnika izmedju 20 i 100 piksela
+krug popuniti slucajno izabranom bojom*/
+
+program iscrtava koncentricne krugove ciji je centar u centru forme. Pocetna velicina precnika je 20, a interval 1000ms
+nakon svakog otkucaja precnik se povecava za 10, a interval smanjuje za 100ms ukoliko je veci od 100ms.
+Crtanje se prekida kada precnik kruga bude veci height/2.
+
+
+Ispis teksta u grafckom rezimu.
+Za ispis teksta na grafickoj provrsini klasa graphics ima metodu Draw String(String,font,Brush,Xl, Yl)
+
+Objekat klase Font moze se konfigurisati rucno ili se cesce koristi windows kontrola koja se zove FontDialog
+
+Napraviti formu sa dva taba na prvom tabu postoji komandno dugme i kontrola ListView u okviru koje se prikazuju podaci
+iz tabele Student baze Fakultet2019
+
+
+Iz tabele broj studenata koji slusa neki predmet prikazati grafiku koristeci objekat klase graphic
+
+
+Metode objekta SQLCommand
+-ExecuteReader - Sluzi za izvrsenje sql komande koja kao rezultat daje jedan ili vise povezanih redova iz tabela (izvrsenje SELECT komande)
+-ExecuteScaler - koristi se ako SQL komanda kao rezultat vraca pojedinacni podatak nekog tipa
+kao rezultat daje podatak tipa object pa je neophodno pretvoriti ga u odgovarajuci tip podataka pre upotrebe
+-ExecuteNonQuery - koristi se kada SQL komanda nema rezultat
+(INSERT, DELETE, UPDATE)
+rezultat je ceo broj koji predstavlja broj modifikovanih redova u bazi
+
+cmd.Text = "DELETED FROM SKOLA WHERE UC.ID = 10";
+int brizbrisanih = cmd.ExecudeNonQuery();
+
+SqlCommand cmd = new SqlCommand();
+cmd.Text = "SELECT COUNT(UC_ID) FROM SKOLA";
+cmd.Connection = con;;
+int bruc = (int)cmd.ExecuteScaler();
+                ------object-------
+
+Kolekcija Parameters
+ako se u SQL komandi koju treba izvrsiti ili u stored proceduri koriste parametri pre izvrsenja oni moraju dobiti vrednost
+
+Kolekciji Parameters treba dodati sve parametre koji se koriste u toj naredbi ili proceduri sa istim imenima i tipovima podataka
+Postoje dve metode za dodavanje parametara u kolkeciju
+
+@ID
+cmd.Parameters.Add("@ID", SqlDBType.Int)
+cmd.Parameters["@ID").Value = 150;
+cmd.Parameters.AddWithValue("@ID", 150);
+
+
+Izvrsenje Stored procedure
+1)cmd.CommandType = CommandType.StoredProcedure;
+2)cmd.Text = "NazivProcedure";
+3)dodavanje parametara
+4)izvrsenje 
+
+Poztaviti na formu DataGridView koji prikazuje podatke iz tabele student baze Fakultet2019 i 
+textboxove u kojima se prikazuje sadrzaj kolona, broj indeksa, ime, prezime i godStudija izabranog reda iz dgv.
+Klikom na dugme brisi iz tabele obrisati izabrani red
+----------------------------------------------
+Stringovi
+Stringovi predstavljaju objekte klase System.String i kao sinonim za ovu klasu koristi se string
+String je nepromenljiv - read-only, kada mu se jednom dodeli vrednost ne mogu se direktno menjati pojedini simboli,
+kao sto je to moguce u nizu simbola vec se sve izmene izvode pozivom odgovarajucih metoda koje ima klasa System.String
+char[] niz = {'n', 'e', 'k', 'i', 's', 'i', 'm', 'b', 'o', 'l', 'i'};
+               0    1    2    3
+niz[3] = 'a';
+'i' = 'a'
+string tekst = "Ovo je neki tekst";
+string tekst = ---------||--------
+string tekst = new String(niz);
+tekst[3] = 'a'; -ne moze/precrtano
+
+string s1; null
+s1 = ""; ili s1 = String.Empty;
+int n = s1.Length;
+
+METODE KLASE String
+Metode koje se koriste za rad sa stringovima mogu biti staticke i nestaticke(metode instance)
+
+staticke
+String.NaazivMetode(arg1, arg2,...);
+nestaticke
+s1.NazivMetode(arg1, arg2,...);
+Za jednu istu stvar moguce je da postoje i staticke i nestaticke metodess
+
+
+1.Poredjenje 2 stringa
+to je staticka metode, koristi se za poredjenje simbola smestenih u dva stringa, alfabetski nad slovima i numericki nad brojevima
+1)Compare()
+a)int rez = String.Compare(s1, s2);
+1  's1 > s2'
+0 's1 = s2'
+-1 's2 > s1'
+b) int rez = String.Compare(s1, s2, ignoreCase)
+                                       true
+s1 = "abc"  s2 = "ABC
+c) int rez = String.Compare(s1, i1, s2, i2, n)
+
+
+Spajanje(konkatenacija stringova)
+za ovo se moze koristiti preopterecenej operatora +
+
+s3 = s1 + s2;
+s4 = String.Concat(s1, s2, s3,...);
+
+
+
+Kopiranje stringova
+moguce je koristiti operator =
+ili String.Copy
+
+s2 = s1;
+s2 = String.Copy(s1);
+
+
+Provera jednakosti dva stringa moze se izvrsiti operatorom == i metodom Equals koja postoji i kao staticka i kao metoda klase
+bool rez = s1==s2
+
+if(s1==s2)
+{
+ /
+}
+else
+{
+}
+
+b) if(String.Equals(s1, s2))
+c) if(s1.Equals(s2))
+
+
+Spajanje vise stringova u jedan
+koriscenjem metode join spaja niz stringova u jedan i izmedju bilo koja dva umece string koji igra ulogu separatora
+
+string[] iskaz = {"To", "be", "or", "not", "to", "be"};
+string tekst = String.Join("-", iskaz);
+
+obrnuta operacija od ove bila bi cepanje stringa na niz stringova
+to je metoda Split koja nije staticka vec se odnosi na objekat instance
+string[] reci = tekst.Split("o");
+reci[0] = "T";
+reci[1] = "-be-";
+.
+.
+.
+
+Provera pocetka i kraja stringa
+ove metode proveravaju da li string pocinje ili se zavrsava sa nekim odgovarajucim simbolom ili stringom.
+Metode su vezane za instancu
+bool rez = s1.StartsWith(podstring);
+           s1.EndsWith(podstring);
+
+
+Pronalazenje podstringa u okviru stringa
+kao rezultat daju index simbolu u stringu od koga pocinje trazeni podstring, ukoliko podstring ne postoji, rezultat je -1
+
+i1 = s1.IndexOf("be");
+i2 = s1.LastIndexOf("be");
+b) i = s1.IndexOf('b');
+   i = s1.IndexOf("be", start index)
+                             5
+
+Ubacivanje podstringa u string
+string s;
+s.Insert(indes,s2);
+
+Uklanjanje znakova iz stringa
+s.Remove(index,n);
+
+Zamena znakova u stringu
+s.Replace(stari, novi);
+
+Desno poravnavanje stringova
+String se popunjava blanko znacima ili navedenim nekim simbolom s leva
+s.PadLeft(duzina);
+s.PadLeft(duzina, znak);
+s.PadLeft(10, 0);
+
+s.PadRight(duzina, znak);
+
+Uklanjanje stringa sa pocetka i kraja stringa
+s.Trim(); uklanja praznine sa oba kraja
+s.TrimStart();
+s.TrimEnd();
+
+Kopiranje podstringa iz stringa
+s.Substring(index, duzina);
+
+s2 = s1.ToUpper(); sva slova pretvara u velika
+s2 = s1.ToLower(); sva slova pretvara u mala
+-----------------------------------------------------
+StringBuilder
+Dinamicki stringovi
+
+Klasa je System.Text.StringBuilder
+
+Kreiranje Dinamickih stringova
+StringBuilder sb = new StringBuilder();
+inicijalna duzina stringa je 16 znakova maksimalno do 2^32 (2 milijarde znakova/maksimalni kapacitet stringa)
+
+StringBuilder sb2 = new StringBuilder(initcapacity);
+                        StringBuilder(50, 1000)
+string s1;
+StringBuilder sb = new StringBuilder(s1);
+s1 = sb.ToString();
+
+= new StringBuilder(s1, startIndex, duzina, capacity);
+
+Metode klase StringBuilder
+1)Dodavanje na kraj dinamickog stringa
+Append() - na kraj dinamickog stringa dodaje vrednost bilo kog tipa koja se automatski pretvara u string.
+sb.Append(vrednost);
+int i;
+string s;
+bool b;
+sb.Append(s);
+sb.Append(i);
+sb.Append(b);
+sb.Append(znak, broj_puta);
+sb.Append(string, index, brznakova);
+
+
+Umetanje u dinamicki string koristi se da se od navedenog stringa doda, vrednost nekog objekta prevedenog u string.
+sb.Insert(index, vrednost)
+u dinamicki string moze se umetnuti vise kopija nekog stringa
+sb.Insert(index, string, repeat);
+
+uklanjanje znakova iz dinamickog stringa
+sb.Remove(index, brznakova);
+
+Zamena znakova u dinamickom stringu
+sb.Replace(oldvalue, newvalue)
+oldvalue - znakovi koje treba zameniti
+newvalue - znak ili podstring sa koji se menja
+
+Konverzija dinamickog stringa u staticki
+string s = sb.ToString();
+
+/*proveriti da li je uneti string palindrom(cita se isto i sa leve i sa desne strane ignorisuci razmake)*/
+/*napisati program koji proverava da li su 2 stringa anagrami jedan drugom*/
+
+
+Komanda za azuriranje podataka
+
+UPDATE NazivTabele
+SET kolona = vrednost,...
+WHERE Filter
+ako se ne napise WHERE svi ce da se promene
+
+string SQLUpdate = "UPDATE UCENIK
+ET ime = @ime, prezime @prezime
+WHERE UC.ID = @sifra"
+SQLConnection conn = new SqlConnection("conString");
+SqlCommand izmeni = new SQLCommand();
+izmeni.COnnection = conn;
+izmeni.CommandText = SQLUpdate;
+izmeni.Parameters.Clear();
+izmeni.Parameters.AddWithValue("@ime", txtime.Text);
+                 .AddWithValue(@prezime", txtprez.Text);
+                 .
+                 .
+int n = izmeni.ExecuteNonQuery();
+
+Azuriranje podatka u tabeli podacima iz druge tabele
+da bi ovo bilo moguce neophodno je povezati tabele nekom od join operacija
+UPDATE T1 SET T1.a = T2.a, T1.b = T2.b
+FROM T1 {INNER}
+        {LEFT} JOIN ON (KEYS STATEMENT)
+        {RIGHT}
+WHERE Filter
+
+Dodavanje tabela
+
+INSER INT NAzivT(spisak vrednosti)
+VALUES(Spisak vrednosti)
+(Spisak vrednosti2)
+(Spisak vrednostin)
+
+Dodavanje vise redova
+
+INSERT KOMANDA KAO REZULTAT MOZE DA VRATI I VREDNOST JEDNE ILI VISE KOLONA IZ DODATIH REDOVA
+INSER INTO Ucenik(ime, prezime, razred)
+OUTPUT IC.ID
+VALUES(@ime, @prezime, @razerd)
+
+Dodavanje redova iz druge tabele
+INSERT INTO T1(kol1, kol2, kol3)
+FROM T2
+WHERE 
+ORDER BY
+.
+.
+
+Rad u bezkonekcijskom resenju
+
+DataSet
+Postoje dve vrste objekata DataSet
+1)Tipski DataSet typed - predstavlja XML semu ili deo neke postojece baze podataka koji je u interesu za aplikacuju. Ona je opisana u .XSD(opisuje XML strukturu baze)
+Kod tiposkog DataSeta tabele baze podataka i njihove kolone predstavljaju svojstva DataSeta.
+Kod tipskih DataSetova provera tipa podataka obavlja se u vreme prevodjenja programa.
+2)Netipski Dataset untyped - moze da sadrzi strukturu bilo kakve baze.
+Kod Netipskih tabele, redovi i kolone su elementi odgovarajucih kolekcija.
+
+
+Kreiranje objekata klase DataSet
+
+Project/Add New DataSource/DataBase/DataSet
+student slusa predmet
+dss
+Student GetData()
+dataadapter ostavlja konekciju u stanju kako je zatekao, ako je bila otvorena ostavice je otvorenu
+
+Moze i da se kreira DataSet Add new Class samo sto se posle prevuku table iz server explorera u .xsd fajl.
+
+/*Napisati program koji u tekstu koji se unosi sa tastature svako visestruko pojavljivanje praznina zamenjuje samo jednom prazninom i svako
+pocetno slovo reci pretvara u veliko.*/
+
+
+/*Napisati program koji u svakoj recenici nekog teksta obrce redosled reci. Svaka recenica se zavrsava tackom i izmedju bilo koje dve reci postoji tacno jedna praznina.*/
+
+Struktura DateTime
+
+Konstruktor je preopterecen sto znaci da mozemo da kreiramo objekat na vise razlicitih nacina.
+1) DateTime d1 = new DateTime(y, m, d);
+2) DateTime d2 = new DateTime(y, m, d, h, m, s, ms);
+3) DateTime d3 = new DateTime(y, m, d, Calendar);
+4) DateTime d4 = new DeteTime(LongInt);
+broj 0.1ms od 01.01.0001 u 12:00:00 (AM)
+
+
+Vremenski intervali(razmaci)
+TimeSpan System.TimeSpan
+Predstavlja broj sati, minuta i sekundi i moze se dodavati/oduzimati od objekata strukture DateTime
+
+TimeSpan interval = new TimeSpan(4, 12, 5);
+
+Svojstva strukture DateTime
+
+1) Now - koristi se da bi se dobio trenutni datum sa racunara
+UTCNow -bazirano je na vremenskoj zoni Grinic u Engleskoj
+Universal Coordinated Time
+
+DateTime d1 = DateTime.Now;
+2) Date - Koristi se da bi se dobio datumski deo nekog objekta strukture DateTime, a vreme ce biti postavljeno na 12:00:00 (AM)
+3) Day - predstavlja ceo broj, redni broj dana u datumu.
+4) DayOfWeek - dan u nedelji
+5) DayOfYear - vraca redni broj dana u godini
+6) Ticks - broj otkucaja od 0.1ms
+7) TimeOfDay -broj sati, minuta, sekundi, milisekundi
+
+
+Metode strukture DateTime
+1) DateTime.Compare(d1, d2) uporedjivanje dva datuma
+d1 > d2  1
+d1 = d2  0
+d2 > d1 -1
+
+
+mogu se koristiti preoptereceni operatori > , >=, <, <=, ==, !=
+
+int i = DateTime.Compare(d1, d2); ==> if(d1 == d2);
+if(DateTime.Compare(d1, d2) == 0)
+{
+...
+}
+else if(...)
+2) Poredjenje jednakosti
+DateTime.Equals(d1, d2);
+
+3)Broj dana u mesecu
+DayInMonth()
+4)IsLeapYear() prestupna godina
+
+5) konverzija stringa u objekat DateTime
+DateTime.Parse(string)
+string mora biti u formatu "MM/dd/yyyy hh:mm:ss"
+hh 0-23
+mm 0-59
+6)Konvertovanje DateTime u string
+string s = d.ToString();
+string s = d1.ToString(format);
+string s = d1.ToString("dd.MM.yyyy");
+
+7) Dodavanje i oduzimanje vremenskog intervala od objekta DateTime
+d2 = d1.Add(Interval);  (=)  d2 = d1 + Interval;
+     d1.Sub(Interval);       d2 = d1 - Interval;
+8) Dodavanje perioda
+AddYears();     d2 = d1.AddYears(5);
+AddMonths();
+AddDays();
+AddHours();
+AddMinutes();
+
+Ukoliko je argument negativan, oduzece se.
+
+SVOJSTVA I METODE KLASE DATASET--------------------------
+Svojstva
+-Tables      Kolekcija DataTable
+-Relations   -----||----- DataRekatuibs
+-EnforceConstraints   bool    ovo svojstvo odredjuje da li se prilikom izmene podataka u datasetu postuju ogranicenja (constraints)
+-HasErrors    DataRow   da li neki red sa podacima u DataSetu sadrzi gresku
+
+Metode
+1)AcceptChanges() - prihvatanje promena koje su na cekanju u datasetu
+  RejectChanges() - odbijanje promena koje su na cekanju DataSetu
+  Reset() - vracanje DataSeta u prvobitno stanje
+2)Clear() - brise sve tabele iz DataSeta
+3)Clone() - klonira strukturu/semu tabele
+4)Copy() - kopira i strukturu i podatke 
+5)GetChanges() - kao rezultat daje dataset koji u tabelama sadrzi samo izmenjene redove
+6)GetXML() - daje XML fajl 
+7)GetXMLSchema() - daje XSD fajl
+8)HasChanges() -bool da li postoje neke izmene 
+9)Merge() - kombinovanje vise datasetova
+10)ReadXML() - cita podatke iz XML u DataSet
+11)WriteXML() -od podataka koji se nalaze u DataSet pravi fajl.
+
+
+DataAdapter objekat
+sluzi za prenos podataka izmedju servera i DataSet-a u oba smera
+
+Svojstva
+1)SelectCommand     Fill()
+2)InsertCommand   }
+3)DeleteCommand   }Update()
+4)UpdateCommand   }
+
+Neophodno je definisati samo Select komandu ostale komande generise ADO.NET
+koristeci klasu CommandBuilder
+COMMANDBUILDER RADI SAMO SA TABELAMA KOJE IMAJU PRIMARNI KLJUC
+CommandBuilder
+5)TableMappings - predstavlja kolekciju u kojoj su definisane veze/mape izmedju baze podataka i dataseta za svaku kolonu svake tabele.
+/*Omoguciti pregled i izmenu nekog podatka za neku tabelu baze podataka. Podatke prikazati u okviru DGV na formi. Za pregled i prihvatanje izmena postaviti na formu
+2 komandna dugmeta prikazi i sacuvaj.*/
+
+
+Regularni izrazi
+Regularni izraz predstavlja sablon na osnovu koga se mogu pretrazivati stringovi
+Sablon se zapisuje kao odgovarajuci niz takozvanih meta simbola.
+
+Meta simboli/karakteri
+
+
+------------------------------------------------------------
+Metasimbol|        Znacenje             |      Primer      |
+------------------------------------------------------------
+     ~    | Odgovara pocetku stringa    | ~A               |
+------------------------------------------------------------
+     $    | Odgovara kraju stringa      | $A               |
+------------------------------------------------------------
+     *    | Odgovara prethodnom simbolu |ab*c(ac,abc,abbc, |
+          | ponovljenom 0 ili vise puta |abbbc,...)        |
+------------------------------------------------------------
+     +    | Prethodni simbol 1 ili      |ab+c(abc,abbc,...)|
+          | vise puta                   |                  |
+------------------------------------------------------------
+     ?    | Prethodni znak jednom       |ab?c(ac,abc)      |
+          | ili nijednom                |                  |
+------------------------------------------------------------
+    {n}   | Ponavljanje prethodnog      |ab{2}c(abbc)      |
+          | znaka tacno n puta          |                  |
+------------------------------------------------------------
+          | Prethodni znak se ponavlja  |ab{2,}c(abbc,     |
+    {n,}  | najmanje n puta             |abbbc,abbbbc,...) |  
+          |                             |ali ne abc        |
+------------------------------------------------------------
+          | Prethodni simbol ponavlja   |ab{2,3}c          |
+   {n,m}  | se najmanje n, a najvise m  |(abbc,abbbc)      |
+          | puta                        |                  |
+------------------------------------------------------------
+    .     | Odgovara bilo kom           |ab.c(abac,abbc,   |
+          | znaku osim \n               |abcc,...)         |
+------------------------------------------------------------
+  x|y     | Odgovara ce sve reci koje   |                  |
+x,y-nizovi| ima niz simbola x ili niz   |                  |
+simbola   | simbola y                   |                  |
+------------------------------------------------------------
+  [abc]   | Simbol odgovara bilo kom od | [ab]bc (abc,bbc) |
+          | navedenih simbola           |                  |
+------------------------------------------------------------
+  [^abc]  | Odgovara bilo kom simbolu   |                  |
+          | osim navedenih              |                  |
+------------------------------------------------------------
+ [a-z]    | Odgovara bilo kom simboli   |                  |
+          | iz intervala                |                  |
+------------------------------------------------------------
+ [^a-z]   | Odgovara bilo kom simbolu   |                  |
+          | koji nije iz tog intervala  |                  |
+------------------------------------------------------------
+   \b     | Odgovara granici reci,      |                  |
+          | pocetak ili kraj reci.      |                  |
+------------------------------------------------------------
+          | Odgovara simbolu koji       |                  |
+   \B     | nije na granici reci,       |                  |
+          | sredina reci.               |                  |
+------------------------------------------------------------
+   \d     | Odgovara numerickom simbolu |   0-9            |
+------------------------------------------------------------
+   \D     | Simboli koji nisu numericki |                  |
+------------------------------------------------------------
+   \w     | Odgovara bilo kom slovnom   |                  |
+          | simbolu, broju od 0-9 ili _ |                  |
+------------------------------------------------------------
+   \W     | Svi simboli koji nisu slova,|                  |
+          | cifre i _                   |                  |
+------------------------------------------------------------
+          | Odgovara svim vidljivim     |                  |
+   \S     | simbolima/simboli koji imaju|                  |
+          | graficki prikaz             |                  |
+------------------------------------------------------------
+   \s     | Odgovara svim nevidljivim   |                  |
+          | simbolima(SPACE, TAB, ENTER)|                  |
+------------------------------------------------------------
+
+/*Sablon koji u nekom tekstu izvlaci sve tekstove koji pocinju slovom s(malim).*/
+‘\bs\S*’  -pocinju malim slovom s
+‘s\b\S*’ -zavrsavaju se malim slovom s.
+-----------------------------------------------------------------------------------------
+Klase regularnih izraza
+Postoji vise klasa koje predstavljaju rezultat pretrazivanja stringa, neke od njih mogu biti i kolekcije.
+MatchCollection - predstavlja skup rezultat koji se podudaraju sa nekim regularnim izrazom, a sam regularni izraz
+predstavljen je klasom Regex.
+MatchCollection rezultati = Regex.Matches(text, @\bs\S*);
+foreach(Match rez in rezultati)
+{
+   obrada rezultata;
+   ... 
+}
+Trebe ukljuciti System.Text.RegularExpressions
+/*Napisati program koji u tekstu koji se unosi sa tastature pronalazi sve podstringove 
+po zeljenom sablonu koji se unosi u textbox i rezultat prikazuje u okviru listboxa.*/
+
+/*Kreirati regualrni izraz za trazenje datuma u formatu DD/MM/YYYY u okviru teksta.*/
+/*Kreirati regualrni izraz za pronalazenje datuma u formatu DD/MM/YYYY u okviru teksta.*/
+
+/*Napisati regularni izraz koji odgovaraju recima koje sadrze:
+1)Neko slovo(koje god slovo na bilo kojoj poziciji) npr slovo A      
+\b\w*a\w*\b    @"\S*u\S*"
+2)Reci koje sadrze neki uzastupni niz slova        
+\b\w*(abc)\w*\b       @"\S*(na)\S*"
+3)Reci koje sadrze ili jedan ili drugi niz slova    
+\b\w*(abc|def)\w*\b  @"\S*(na|ni)\S*"
+4)Reci koje sadrze jedno drugo ili trece slovo   
+\b\w*[abc]\w*\b      @"\S*[aeiou]\S*"
+5)Reci koje sadrze bilo koje slovo od malo b do malo f       
+\b\w*[b-f]\w*\b       @"\S*[b-f]\S*"
+6)Brojeve telefona oblika (3 cifre)-(3 cifre)-(4 cifre)   
+\b\d{3}-\d{3}-\d{4}\b      
+7)Datumska polja u nemackom formatu DD/MM/YYYY  
+\b\d{2}\/\d{2}\/\d{4}\b  @"\d\d\.\d\d\.\d\d\d\d" -->  @"(d{2}\.)(\d{2}\.)(\d{4})"
+                                                           1.       2.
+@"(\d{2}\.)\1(\d{4})" ovo ne moze, jer ce onda moci 10.10.2023 ali ne i 05.10.2023
+
+8)web adrese   
+\b(?:https?://|www\.)\S+\b    @"\b(www)(\.\S*)+"
+9)mail adrese   
+\w+@\w+\.\w{2,}
+*/
+
+/*napisati regularni izraz koji odgovara recima koji imaju dva uzastopna ista simbola/slova*/
+@"\S*(.)\1
+------------------------------------------------------------------------------------------------------
+Kontrola unosa podataka
+
+MaskedTextBox
+Vrednost unetog podatka moze da se kontrolise pomocu dogadjaja tastature
+-KeyPress
+-KeyUp
+-KeyDown
+Dogadjaji kada kontrola na formi gubi fokus (kada postaje neaktivna)
+-Leave
+-Validating
+-Validated
+
+
+Kontrola unosa tekstualnih podataka
+1* Koriscenje dogadjaja tastature
+1) KeyPress
+2) KeyDown
+3) KeyUp
+
+2* Programiranje dogadjaja
+1) Leave
+2) Validating
+3) Validated
+
+3* Kontrole koje su predvidjene za kontrolu unosa
+-MaskedTextbox
+-DateTimePicker
+/*Na formi staviti dva tekstboxa i jedan maskedtextbox, izvrsiti kontrolu unosa tako da se kroz prvi textbox moze uneti ceo broj iz opsega od 1 do 100,
+kroz drugi realan broj tipa double, kroz maskedtextbox datum u kratkom formatu(DD.MM.YYYY), prilikom unosa, pritiskom na taster enter oznacava kraj unosa
+i prelazak na sledecu kontrolu.*/
+--------------------------------------------
+LINQ
+Language Integrated Query
+Ova tehnologija omogucava pisanje upita tako da su oni sastavni deo sintakse programskog jezika C#(svih koje podrzava Visual Studio)
+Ovo omogucava da se otkriju eventualne greske u upitu prilikom prevodjenja programa, a ne u fazi izvrsenja kao sto je to bio slucaj koriscenjem objekta
+SQLCommand ADO.NET-a.
+
+Anonimni tipovi podataka
+Tip promenljive odredjen je vrednoscu koju ta promenljiva trenutno ima.
+
+var x = 5;
+-------------------------------
+fread(@podatak, velicina podatka izrazena brojem bajtova, broj, FILE *f)  - citanje iz binarnog fajla
+fwrite(@podatak, velicina podatka izrazena brojem bajtova, broj, FILE *f) - upisivanje u binarni fajl
+sizeof(tip)                           
+fseek(FILE, broj bajtova, reper) -postavljamo pokazivac na bajt koji nas interesesuje      
+SEEK_SET
+SEK_END
+SEEK_CUR
+fseek(datoteka, 0, SEEK_SET)
+ftell(datoteka) - daje tekuci pokazivac u nekom binarnom fajlu
+rewind(datoteka) - vraca na pocekat fajla isto je kao i fseek(datoteka, 0, SEEK_SET)

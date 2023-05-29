@@ -1,0 +1,11 @@
+D:\4-1\Mihajlo Randjeovic IV-1\reverse\bin\Debug\reverse.exe.config
+D:\4-1\Mihajlo Randjeovic IV-1\reverse\bin\Debug\reverse.exe
+D:\4-1\Mihajlo Randjeovic IV-1\reverse\bin\Debug\reverse.pdb
+D:\4-1\Mihajlo Randjeovic IV-1\reverse\obj\Debug\reverse.csproj.AssemblyReference.cache
+D:\4-1\Mihajlo Randjeovic IV-1\reverse\obj\Debug\reverse.csproj.SuggestedBindingRedirects.cache
+D:\4-1\Mihajlo Randjeovic IV-1\reverse\obj\Debug\reverse.Form1.resources
+D:\4-1\Mihajlo Randjeovic IV-1\reverse\obj\Debug\reverse.Properties.Resources.resources
+D:\4-1\Mihajlo Randjeovic IV-1\reverse\obj\Debug\reverse.csproj.GenerateResource.cache
+D:\4-1\Mihajlo Randjeovic IV-1\reverse\obj\Debug\reverse.csproj.CoreCompileInputs.cache
+D:\4-1\Mihajlo Randjeovic IV-1\reverse\obj\Debug\reverse.exe
+D:\4-1\Mihajlo Randjeovic IV-1\reverse\obj\Debug\reverse.pdb

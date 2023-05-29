@@ -1,0 +1,11 @@
+D:\4-1\Mihajlo Randjeovic IV-1\MaturskiZadaci\baze 5\bin\Debug\baze 5.exe.config
+D:\4-1\Mihajlo Randjeovic IV-1\MaturskiZadaci\baze 5\bin\Debug\baze 5.exe
+D:\4-1\Mihajlo Randjeovic IV-1\MaturskiZadaci\baze 5\bin\Debug\baze 5.pdb
+D:\4-1\Mihajlo Randjeovic IV-1\MaturskiZadaci\baze 5\obj\Debug\baze 5.csproj.AssemblyReference.cache
+D:\4-1\Mihajlo Randjeovic IV-1\MaturskiZadaci\baze 5\obj\Debug\baze 5.csproj.SuggestedBindingRedirects.cache
+D:\4-1\Mihajlo Randjeovic IV-1\MaturskiZadaci\baze 5\obj\Debug\baze_5.Form1.resources
+D:\4-1\Mihajlo Randjeovic IV-1\MaturskiZadaci\baze 5\obj\Debug\baze_5.Properties.Resources.resources
+D:\4-1\Mihajlo Randjeovic IV-1\MaturskiZadaci\baze 5\obj\Debug\baze 5.csproj.GenerateResource.cache
+D:\4-1\Mihajlo Randjeovic IV-1\MaturskiZadaci\baze 5\obj\Debug\baze 5.csproj.CoreCompileInputs.cache
+D:\4-1\Mihajlo Randjeovic IV-1\MaturskiZadaci\baze 5\obj\Debug\baze 5.exe
+D:\4-1\Mihajlo Randjeovic IV-1\MaturskiZadaci\baze 5\obj\Debug\baze 5.pdb

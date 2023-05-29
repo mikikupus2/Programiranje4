@@ -1,0 +1,11 @@
+D:\4-1\Mihajlo Randjeovic IV-1\MaturskiZadaci\izrazi\bin\Debug\izrazi.exe.config
+D:\4-1\Mihajlo Randjeovic IV-1\MaturskiZadaci\izrazi\bin\Debug\izrazi.exe
+D:\4-1\Mihajlo Randjeovic IV-1\MaturskiZadaci\izrazi\bin\Debug\izrazi.pdb
+D:\4-1\Mihajlo Randjeovic IV-1\MaturskiZadaci\izrazi\obj\Debug\izrazi.csproj.AssemblyReference.cache
+D:\4-1\Mihajlo Randjeovic IV-1\MaturskiZadaci\izrazi\obj\Debug\izrazi.csproj.SuggestedBindingRedirects.cache
+D:\4-1\Mihajlo Randjeovic IV-1\MaturskiZadaci\izrazi\obj\Debug\izrazi.Form1.resources
+D:\4-1\Mihajlo Randjeovic IV-1\MaturskiZadaci\izrazi\obj\Debug\izrazi.Properties.Resources.resources
+D:\4-1\Mihajlo Randjeovic IV-1\MaturskiZadaci\izrazi\obj\Debug\izrazi.csproj.GenerateResource.cache
+D:\4-1\Mihajlo Randjeovic IV-1\MaturskiZadaci\izrazi\obj\Debug\izrazi.csproj.CoreCompileInputs.cache
+D:\4-1\Mihajlo Randjeovic IV-1\MaturskiZadaci\izrazi\obj\Debug\izrazi.exe
+D:\4-1\Mihajlo Randjeovic IV-1\MaturskiZadaci\izrazi\obj\Debug\izrazi.pdb

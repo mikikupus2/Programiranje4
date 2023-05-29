@@ -1,0 +1,11 @@
+D:\4-1\Mihajlo Randjeovic IV-1\FajloviStack\obj\Debug\FajloviStack.csproj.AssemblyReference.cache
+D:\4-1\Mihajlo Randjeovic IV-1\FajloviStack\obj\Debug\FajloviStack.csproj.SuggestedBindingRedirects.cache
+D:\4-1\Mihajlo Randjeovic IV-1\FajloviStack\obj\Debug\FajloviStack.Form1.resources
+D:\4-1\Mihajlo Randjeovic IV-1\FajloviStack\obj\Debug\FajloviStack.Properties.Resources.resources
+D:\4-1\Mihajlo Randjeovic IV-1\FajloviStack\obj\Debug\FajloviStack.csproj.GenerateResource.cache
+D:\4-1\Mihajlo Randjeovic IV-1\FajloviStack\obj\Debug\FajloviStack.csproj.CoreCompileInputs.cache
+D:\4-1\Mihajlo Randjeovic IV-1\FajloviStack\bin\Debug\FajloviStack.exe.config
+D:\4-1\Mihajlo Randjeovic IV-1\FajloviStack\bin\Debug\FajloviStack.exe
+D:\4-1\Mihajlo Randjeovic IV-1\FajloviStack\bin\Debug\FajloviStack.pdb
+D:\4-1\Mihajlo Randjeovic IV-1\FajloviStack\obj\Debug\FajloviStack.exe
+D:\4-1\Mihajlo Randjeovic IV-1\FajloviStack\obj\Debug\FajloviStack.pdb

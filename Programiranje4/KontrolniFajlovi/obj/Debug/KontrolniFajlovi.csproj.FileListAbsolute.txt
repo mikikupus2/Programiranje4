@@ -1,0 +1,11 @@
+D:\4-1\Mihajlo Randjeovic IV-1\KontrolniFajlovi\bin\Debug\KontrolniFajlovi.exe.config
+D:\4-1\Mihajlo Randjeovic IV-1\KontrolniFajlovi\bin\Debug\KontrolniFajlovi.exe
+D:\4-1\Mihajlo Randjeovic IV-1\KontrolniFajlovi\bin\Debug\KontrolniFajlovi.pdb
+D:\4-1\Mihajlo Randjeovic IV-1\KontrolniFajlovi\obj\Debug\KontrolniFajlovi.csproj.AssemblyReference.cache
+D:\4-1\Mihajlo Randjeovic IV-1\KontrolniFajlovi\obj\Debug\KontrolniFajlovi.csproj.SuggestedBindingRedirects.cache
+D:\4-1\Mihajlo Randjeovic IV-1\KontrolniFajlovi\obj\Debug\KontrolniFajlovi.Form1.resources
+D:\4-1\Mihajlo Randjeovic IV-1\KontrolniFajlovi\obj\Debug\KontrolniFajlovi.Properties.Resources.resources
+D:\4-1\Mihajlo Randjeovic IV-1\KontrolniFajlovi\obj\Debug\KontrolniFajlovi.csproj.GenerateResource.cache
+D:\4-1\Mihajlo Randjeovic IV-1\KontrolniFajlovi\obj\Debug\KontrolniFajlovi.csproj.CoreCompileInputs.cache
+D:\4-1\Mihajlo Randjeovic IV-1\KontrolniFajlovi\obj\Debug\KontrolniFajlovi.exe
+D:\4-1\Mihajlo Randjeovic IV-1\KontrolniFajlovi\obj\Debug\KontrolniFajlovi.pdb

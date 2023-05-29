@@ -1,0 +1,6 @@
+izracunava cenu nekog artikla na osnovu oznate nabavne cene stope pdv i stope marze(dobitka trgovca)
+nabavna cena,kolicina,pdv,marza,prodajna cena (realni brojevi i klase)
+konstruktor prilikom poziva prenosi sa forme sve podatke osim prodajne cene
+koja se racuna metodom klase izracunaj
+Za podatak prodajna cena napraviti javno svojstvo preko koga se uzima vrednost iz objekta i prikazuje 
+u nekom textboxu na formi

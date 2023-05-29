@@ -1,0 +1,11 @@
+D:\4-1\Mihajlo Randjeovic IV-1\BazaBrisanjeListView\bin\Debug\BazaBrisanjeListView.exe.config
+D:\4-1\Mihajlo Randjeovic IV-1\BazaBrisanjeListView\bin\Debug\BazaBrisanjeListView.exe
+D:\4-1\Mihajlo Randjeovic IV-1\BazaBrisanjeListView\bin\Debug\BazaBrisanjeListView.pdb
+D:\4-1\Mihajlo Randjeovic IV-1\BazaBrisanjeListView\obj\Debug\BazaBrisanjeListView.csproj.AssemblyReference.cache
+D:\4-1\Mihajlo Randjeovic IV-1\BazaBrisanjeListView\obj\Debug\BazaBrisanjeListView.csproj.SuggestedBindingRedirects.cache
+D:\4-1\Mihajlo Randjeovic IV-1\BazaBrisanjeListView\obj\Debug\BazaBrisanjeListView.Form1.resources
+D:\4-1\Mihajlo Randjeovic IV-1\BazaBrisanjeListView\obj\Debug\BazaBrisanjeListView.Properties.Resources.resources
+D:\4-1\Mihajlo Randjeovic IV-1\BazaBrisanjeListView\obj\Debug\BazaBrisanjeListView.csproj.GenerateResource.cache
+D:\4-1\Mihajlo Randjeovic IV-1\BazaBrisanjeListView\obj\Debug\BazaBrisanjeListView.csproj.CoreCompileInputs.cache
+D:\4-1\Mihajlo Randjeovic IV-1\BazaBrisanjeListView\obj\Debug\BazaBrisanjeListView.exe
+D:\4-1\Mihajlo Randjeovic IV-1\BazaBrisanjeListView\obj\Debug\BazaBrisanjeListView.pdb

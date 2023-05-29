@@ -1,0 +1,11 @@
+D:\4-1\Mihajlo Randjeovic IV-1\GrafikaTekst\bin\Debug\GrafikaTekst.exe.config
+D:\4-1\Mihajlo Randjeovic IV-1\GrafikaTekst\bin\Debug\GrafikaTekst.exe
+D:\4-1\Mihajlo Randjeovic IV-1\GrafikaTekst\bin\Debug\GrafikaTekst.pdb
+D:\4-1\Mihajlo Randjeovic IV-1\GrafikaTekst\obj\Debug\GrafikaTekst.csproj.AssemblyReference.cache
+D:\4-1\Mihajlo Randjeovic IV-1\GrafikaTekst\obj\Debug\GrafikaTekst.csproj.SuggestedBindingRedirects.cache
+D:\4-1\Mihajlo Randjeovic IV-1\GrafikaTekst\obj\Debug\GrafikaTekst.Form1.resources
+D:\4-1\Mihajlo Randjeovic IV-1\GrafikaTekst\obj\Debug\GrafikaTekst.Properties.Resources.resources
+D:\4-1\Mihajlo Randjeovic IV-1\GrafikaTekst\obj\Debug\GrafikaTekst.csproj.GenerateResource.cache
+D:\4-1\Mihajlo Randjeovic IV-1\GrafikaTekst\obj\Debug\GrafikaTekst.csproj.CoreCompileInputs.cache
+D:\4-1\Mihajlo Randjeovic IV-1\GrafikaTekst\obj\Debug\GrafikaTekst.exe
+D:\4-1\Mihajlo Randjeovic IV-1\GrafikaTekst\obj\Debug\GrafikaTekst.pdb

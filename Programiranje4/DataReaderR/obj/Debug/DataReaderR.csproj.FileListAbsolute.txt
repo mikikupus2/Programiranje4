@@ -1,0 +1,11 @@
+D:\4-1\Mihajlo Randjeovic IV-1\DataReaderR\bin\Debug\DataReaderR.exe.config
+D:\4-1\Mihajlo Randjeovic IV-1\DataReaderR\bin\Debug\DataReaderR.exe
+D:\4-1\Mihajlo Randjeovic IV-1\DataReaderR\bin\Debug\DataReaderR.pdb
+D:\4-1\Mihajlo Randjeovic IV-1\DataReaderR\obj\Debug\DataReaderR.csproj.AssemblyReference.cache
+D:\4-1\Mihajlo Randjeovic IV-1\DataReaderR\obj\Debug\DataReaderR.csproj.SuggestedBindingRedirects.cache
+D:\4-1\Mihajlo Randjeovic IV-1\DataReaderR\obj\Debug\DataReaderR.Form1.resources
+D:\4-1\Mihajlo Randjeovic IV-1\DataReaderR\obj\Debug\DataReaderR.Properties.Resources.resources
+D:\4-1\Mihajlo Randjeovic IV-1\DataReaderR\obj\Debug\DataReaderR.csproj.GenerateResource.cache
+D:\4-1\Mihajlo Randjeovic IV-1\DataReaderR\obj\Debug\DataReaderR.csproj.CoreCompileInputs.cache
+D:\4-1\Mihajlo Randjeovic IV-1\DataReaderR\obj\Debug\DataReaderR.exe
+D:\4-1\Mihajlo Randjeovic IV-1\DataReaderR\obj\Debug\DataReaderR.pdb

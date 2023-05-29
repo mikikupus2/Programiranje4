@@ -1,0 +1,11 @@
+D:\4-1\Mihajlo Randjeovic IV-1\vezbastringovi\bin\Debug\vezbastringovi.exe.config
+D:\4-1\Mihajlo Randjeovic IV-1\vezbastringovi\bin\Debug\vezbastringovi.exe
+D:\4-1\Mihajlo Randjeovic IV-1\vezbastringovi\bin\Debug\vezbastringovi.pdb
+D:\4-1\Mihajlo Randjeovic IV-1\vezbastringovi\obj\Debug\vezbastringovi.csproj.AssemblyReference.cache
+D:\4-1\Mihajlo Randjeovic IV-1\vezbastringovi\obj\Debug\vezbastringovi.csproj.SuggestedBindingRedirects.cache
+D:\4-1\Mihajlo Randjeovic IV-1\vezbastringovi\obj\Debug\vezbastringovi.Form1.resources
+D:\4-1\Mihajlo Randjeovic IV-1\vezbastringovi\obj\Debug\vezbastringovi.Properties.Resources.resources
+D:\4-1\Mihajlo Randjeovic IV-1\vezbastringovi\obj\Debug\vezbastringovi.csproj.GenerateResource.cache
+D:\4-1\Mihajlo Randjeovic IV-1\vezbastringovi\obj\Debug\vezbastringovi.csproj.CoreCompileInputs.cache
+D:\4-1\Mihajlo Randjeovic IV-1\vezbastringovi\obj\Debug\vezbastringovi.exe
+D:\4-1\Mihajlo Randjeovic IV-1\vezbastringovi\obj\Debug\vezbastringovi.pdb

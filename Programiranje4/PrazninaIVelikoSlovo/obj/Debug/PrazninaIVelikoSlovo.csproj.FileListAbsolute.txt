@@ -1,0 +1,11 @@
+D:\4-1\Mihajlo Randjeovic IV-1\PrazninaIVelikoSlovo\bin\Debug\PrazninaIVelikoSlovo.exe.config
+D:\4-1\Mihajlo Randjeovic IV-1\PrazninaIVelikoSlovo\bin\Debug\PrazninaIVelikoSlovo.exe
+D:\4-1\Mihajlo Randjeovic IV-1\PrazninaIVelikoSlovo\bin\Debug\PrazninaIVelikoSlovo.pdb
+D:\4-1\Mihajlo Randjeovic IV-1\PrazninaIVelikoSlovo\obj\Debug\PrazninaIVelikoSlovo.csproj.AssemblyReference.cache
+D:\4-1\Mihajlo Randjeovic IV-1\PrazninaIVelikoSlovo\obj\Debug\PrazninaIVelikoSlovo.csproj.SuggestedBindingRedirects.cache
+D:\4-1\Mihajlo Randjeovic IV-1\PrazninaIVelikoSlovo\obj\Debug\PrazninaIVelikoSlovo.Form1.resources
+D:\4-1\Mihajlo Randjeovic IV-1\PrazninaIVelikoSlovo\obj\Debug\PrazninaIVelikoSlovo.Properties.Resources.resources
+D:\4-1\Mihajlo Randjeovic IV-1\PrazninaIVelikoSlovo\obj\Debug\PrazninaIVelikoSlovo.csproj.GenerateResource.cache
+D:\4-1\Mihajlo Randjeovic IV-1\PrazninaIVelikoSlovo\obj\Debug\PrazninaIVelikoSlovo.csproj.CoreCompileInputs.cache
+D:\4-1\Mihajlo Randjeovic IV-1\PrazninaIVelikoSlovo\obj\Debug\PrazninaIVelikoSlovo.exe
+D:\4-1\Mihajlo Randjeovic IV-1\PrazninaIVelikoSlovo\obj\Debug\PrazninaIVelikoSlovo.pdb

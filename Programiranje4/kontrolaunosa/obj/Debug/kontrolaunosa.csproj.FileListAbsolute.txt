@@ -1,0 +1,11 @@
+D:\4-1\Mihajlo Randjeovic IV-1\kontrolaunosa\bin\Debug\kontrolaunosa.exe.config
+D:\4-1\Mihajlo Randjeovic IV-1\kontrolaunosa\bin\Debug\kontrolaunosa.exe
+D:\4-1\Mihajlo Randjeovic IV-1\kontrolaunosa\bin\Debug\kontrolaunosa.pdb
+D:\4-1\Mihajlo Randjeovic IV-1\kontrolaunosa\obj\Debug\kontrolaunosa.csproj.AssemblyReference.cache
+D:\4-1\Mihajlo Randjeovic IV-1\kontrolaunosa\obj\Debug\kontrolaunosa.csproj.SuggestedBindingRedirects.cache
+D:\4-1\Mihajlo Randjeovic IV-1\kontrolaunosa\obj\Debug\kontrolaunosa.Form1.resources
+D:\4-1\Mihajlo Randjeovic IV-1\kontrolaunosa\obj\Debug\kontrolaunosa.Properties.Resources.resources
+D:\4-1\Mihajlo Randjeovic IV-1\kontrolaunosa\obj\Debug\kontrolaunosa.csproj.GenerateResource.cache
+D:\4-1\Mihajlo Randjeovic IV-1\kontrolaunosa\obj\Debug\kontrolaunosa.csproj.CoreCompileInputs.cache
+D:\4-1\Mihajlo Randjeovic IV-1\kontrolaunosa\obj\Debug\kontrolaunosa.exe
+D:\4-1\Mihajlo Randjeovic IV-1\kontrolaunosa\obj\Debug\kontrolaunosa.pdb

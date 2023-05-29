@@ -1,0 +1,11 @@
+D:\4-1\Mihajlo Randjeovic IV-1\StudentiChart\bin\Debug\StudentiChart.exe.config
+D:\4-1\Mihajlo Randjeovic IV-1\StudentiChart\bin\Debug\StudentiChart.exe
+D:\4-1\Mihajlo Randjeovic IV-1\StudentiChart\bin\Debug\StudentiChart.pdb
+D:\4-1\Mihajlo Randjeovic IV-1\StudentiChart\obj\Debug\StudentiChart.csproj.AssemblyReference.cache
+D:\4-1\Mihajlo Randjeovic IV-1\StudentiChart\obj\Debug\StudentiChart.csproj.SuggestedBindingRedirects.cache
+D:\4-1\Mihajlo Randjeovic IV-1\StudentiChart\obj\Debug\StudentiChart.Form1.resources
+D:\4-1\Mihajlo Randjeovic IV-1\StudentiChart\obj\Debug\StudentiChart.Properties.Resources.resources
+D:\4-1\Mihajlo Randjeovic IV-1\StudentiChart\obj\Debug\StudentiChart.csproj.GenerateResource.cache
+D:\4-1\Mihajlo Randjeovic IV-1\StudentiChart\obj\Debug\StudentiChart.csproj.CoreCompileInputs.cache
+D:\4-1\Mihajlo Randjeovic IV-1\StudentiChart\obj\Debug\StudentiChart.exe
+D:\4-1\Mihajlo Randjeovic IV-1\StudentiChart\obj\Debug\StudentiChart.pdb

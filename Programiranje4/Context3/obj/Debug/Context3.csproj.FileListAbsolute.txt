@@ -1,0 +1,11 @@
+D:\4-1\Mihajlo Randjeovic IV-1\Context3\bin\Debug\Context3.exe.config
+D:\4-1\Mihajlo Randjeovic IV-1\Context3\bin\Debug\Context3.exe
+D:\4-1\Mihajlo Randjeovic IV-1\Context3\bin\Debug\Context3.pdb
+D:\4-1\Mihajlo Randjeovic IV-1\Context3\obj\Debug\Context3.csproj.AssemblyReference.cache
+D:\4-1\Mihajlo Randjeovic IV-1\Context3\obj\Debug\Context3.csproj.SuggestedBindingRedirects.cache
+D:\4-1\Mihajlo Randjeovic IV-1\Context3\obj\Debug\Context3.Form1.resources
+D:\4-1\Mihajlo Randjeovic IV-1\Context3\obj\Debug\Context3.Properties.Resources.resources
+D:\4-1\Mihajlo Randjeovic IV-1\Context3\obj\Debug\Context3.csproj.GenerateResource.cache
+D:\4-1\Mihajlo Randjeovic IV-1\Context3\obj\Debug\Context3.csproj.CoreCompileInputs.cache
+D:\4-1\Mihajlo Randjeovic IV-1\Context3\obj\Debug\Context3.exe
+D:\4-1\Mihajlo Randjeovic IV-1\Context3\obj\Debug\Context3.pdb

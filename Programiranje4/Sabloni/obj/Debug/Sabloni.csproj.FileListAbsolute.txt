@@ -1,0 +1,11 @@
+D:\4-1\Mihajlo Randjeovic IV-1\Sabloni\bin\Debug\Sabloni.exe.config
+D:\4-1\Mihajlo Randjeovic IV-1\Sabloni\bin\Debug\Sabloni.exe
+D:\4-1\Mihajlo Randjeovic IV-1\Sabloni\bin\Debug\Sabloni.pdb
+D:\4-1\Mihajlo Randjeovic IV-1\Sabloni\obj\Debug\Sabloni.csproj.AssemblyReference.cache
+D:\4-1\Mihajlo Randjeovic IV-1\Sabloni\obj\Debug\Sabloni.csproj.SuggestedBindingRedirects.cache
+D:\4-1\Mihajlo Randjeovic IV-1\Sabloni\obj\Debug\Sabloni.Form1.resources
+D:\4-1\Mihajlo Randjeovic IV-1\Sabloni\obj\Debug\Sabloni.Properties.Resources.resources
+D:\4-1\Mihajlo Randjeovic IV-1\Sabloni\obj\Debug\Sabloni.csproj.GenerateResource.cache
+D:\4-1\Mihajlo Randjeovic IV-1\Sabloni\obj\Debug\Sabloni.csproj.CoreCompileInputs.cache
+D:\4-1\Mihajlo Randjeovic IV-1\Sabloni\obj\Debug\Sabloni.exe
+D:\4-1\Mihajlo Randjeovic IV-1\Sabloni\obj\Debug\Sabloni.pdb

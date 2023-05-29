@@ -1,0 +1,11 @@
+D:\4-1\Mihajlo Randjeovic IV-1\Connect\Connect\obj\Debug\Connect.csproj.AssemblyReference.cache
+D:\4-1\Mihajlo Randjeovic IV-1\Connect\Connect\obj\Debug\Connect.csproj.SuggestedBindingRedirects.cache
+D:\4-1\Mihajlo Randjeovic IV-1\Connect\Connect\obj\Debug\Connect.Form1.resources
+D:\4-1\Mihajlo Randjeovic IV-1\Connect\Connect\obj\Debug\Connect.Properties.Resources.resources
+D:\4-1\Mihajlo Randjeovic IV-1\Connect\Connect\obj\Debug\Connect.csproj.GenerateResource.cache
+D:\4-1\Mihajlo Randjeovic IV-1\Connect\Connect\obj\Debug\Connect.csproj.CoreCompileInputs.cache
+D:\4-1\Mihajlo Randjeovic IV-1\Connect\Connect\bin\Debug\Connect.exe.config
+D:\4-1\Mihajlo Randjeovic IV-1\Connect\Connect\bin\Debug\Connect.exe
+D:\4-1\Mihajlo Randjeovic IV-1\Connect\Connect\bin\Debug\Connect.pdb
+D:\4-1\Mihajlo Randjeovic IV-1\Connect\Connect\obj\Debug\Connect.exe
+D:\4-1\Mihajlo Randjeovic IV-1\Connect\Connect\obj\Debug\Connect.pdb

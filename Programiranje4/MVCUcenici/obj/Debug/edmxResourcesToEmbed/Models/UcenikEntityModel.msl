@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MVCUcenikModelStoreContainer" CdmEntityContainer="MVCUcenikEntities">
+    <EntitySetMapping Name="Uceniks">
+      <EntityTypeMapping TypeName="MVCUcenikModel.Ucenik">
+        <MappingFragment StoreEntitySet="Ucenik">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Prezime" ColumnName="Prezime" />
+          <ScalarProperty Name="Ime" ColumnName="Ime" />
+          <ScalarProperty Name="Pol" ColumnName="Pol" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Razred_i_Odeljenje" ColumnName="Razred_i_Odeljenje" />
+          <ScalarProperty Name="Prosecna_Ocena" ColumnName="Prosecna_Ocena" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

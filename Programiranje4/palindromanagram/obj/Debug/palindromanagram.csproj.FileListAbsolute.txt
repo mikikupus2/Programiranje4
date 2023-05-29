@@ -1,0 +1,11 @@
+D:\4-1\Mihajlo Randjeovic IV-1\palindromanagram\obj\Debug\palindromanagram.csproj.AssemblyReference.cache
+D:\4-1\Mihajlo Randjeovic IV-1\palindromanagram\obj\Debug\palindromanagram.csproj.SuggestedBindingRedirects.cache
+D:\4-1\Mihajlo Randjeovic IV-1\palindromanagram\obj\Debug\palindromanagram.Form1.resources
+D:\4-1\Mihajlo Randjeovic IV-1\palindromanagram\obj\Debug\palindromanagram.Properties.Resources.resources
+D:\4-1\Mihajlo Randjeovic IV-1\palindromanagram\obj\Debug\palindromanagram.csproj.GenerateResource.cache
+D:\4-1\Mihajlo Randjeovic IV-1\palindromanagram\obj\Debug\palindromanagram.csproj.CoreCompileInputs.cache
+D:\4-1\Mihajlo Randjeovic IV-1\palindromanagram\bin\Debug\palindromanagram.exe.config
+D:\4-1\Mihajlo Randjeovic IV-1\palindromanagram\bin\Debug\palindromanagram.exe
+D:\4-1\Mihajlo Randjeovic IV-1\palindromanagram\bin\Debug\palindromanagram.pdb
+D:\4-1\Mihajlo Randjeovic IV-1\palindromanagram\obj\Debug\palindromanagram.exe
+D:\4-1\Mihajlo Randjeovic IV-1\palindromanagram\obj\Debug\palindromanagram.pdb

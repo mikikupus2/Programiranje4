@@ -1,0 +1,14 @@
+D:\4-1\Mihajlo Randjeovic IV-1\StudentBaza\bin\Debug\StudentBaza.exe.config
+D:\4-1\Mihajlo Randjeovic IV-1\StudentBaza\bin\Debug\StudentBaza.exe
+D:\4-1\Mihajlo Randjeovic IV-1\StudentBaza\bin\Debug\StudentBaza.pdb
+D:\4-1\Mihajlo Randjeovic IV-1\StudentBaza\obj\Debug\StudentBaza.csproj.AssemblyReference.cache
+D:\4-1\Mihajlo Randjeovic IV-1\StudentBaza\obj\Debug\StudentBaza.csproj.SuggestedBindingRedirects.cache
+D:\4-1\Mihajlo Randjeovic IV-1\StudentBaza\obj\Debug\StudentBaza.Form1.resources
+D:\4-1\Mihajlo Randjeovic IV-1\StudentBaza\obj\Debug\StudentBaza.Properties.Resources.resources
+D:\4-1\Mihajlo Randjeovic IV-1\StudentBaza\obj\Debug\StudentBaza.UnosForma.resources
+D:\4-1\Mihajlo Randjeovic IV-1\StudentBaza\obj\Debug\StudentBaza.csproj.GenerateResource.cache
+D:\4-1\Mihajlo Randjeovic IV-1\StudentBaza\obj\Debug\StudentBaza.csproj.CoreCompileInputs.cache
+D:\4-1\Mihajlo Randjeovic IV-1\StudentBaza\obj\Debug\StudentBaza.exe
+D:\4-1\Mihajlo Randjeovic IV-1\StudentBaza\obj\Debug\StudentBaza.pdb
+D:\4-1\Mihajlo Randjeovic IV-1\StudentBaza\obj\Debug\StudentBaza.PrikazForma.resources
+D:\4-1\Mihajlo Randjeovic IV-1\StudentBaza\obj\Debug\StudentBaza.IzbaciForma.resources

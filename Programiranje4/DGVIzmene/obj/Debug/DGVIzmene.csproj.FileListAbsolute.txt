@@ -1,0 +1,11 @@
+D:\4-1\Mihajlo Randjeovic IV-1\DGVIzmene\bin\Debug\DGVIzmene.exe.config
+D:\4-1\Mihajlo Randjeovic IV-1\DGVIzmene\bin\Debug\DGVIzmene.exe
+D:\4-1\Mihajlo Randjeovic IV-1\DGVIzmene\bin\Debug\DGVIzmene.pdb
+D:\4-1\Mihajlo Randjeovic IV-1\DGVIzmene\obj\Debug\DGVIzmene.csproj.AssemblyReference.cache
+D:\4-1\Mihajlo Randjeovic IV-1\DGVIzmene\obj\Debug\DGVIzmene.csproj.SuggestedBindingRedirects.cache
+D:\4-1\Mihajlo Randjeovic IV-1\DGVIzmene\obj\Debug\DGVIzmene.Form1.resources
+D:\4-1\Mihajlo Randjeovic IV-1\DGVIzmene\obj\Debug\DGVIzmene.Properties.Resources.resources
+D:\4-1\Mihajlo Randjeovic IV-1\DGVIzmene\obj\Debug\DGVIzmene.csproj.GenerateResource.cache
+D:\4-1\Mihajlo Randjeovic IV-1\DGVIzmene\obj\Debug\DGVIzmene.csproj.CoreCompileInputs.cache
+D:\4-1\Mihajlo Randjeovic IV-1\DGVIzmene\obj\Debug\DGVIzmene.exe
+D:\4-1\Mihajlo Randjeovic IV-1\DGVIzmene\obj\Debug\DGVIzmene.pdb

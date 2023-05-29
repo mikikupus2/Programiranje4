@@ -1,0 +1,11 @@
+D:\4-1\Mihajlo Randjeovic IV-1\paleta3\bin\Debug\paleta3.exe.config
+D:\4-1\Mihajlo Randjeovic IV-1\paleta3\bin\Debug\paleta3.exe
+D:\4-1\Mihajlo Randjeovic IV-1\paleta3\bin\Debug\paleta3.pdb
+D:\4-1\Mihajlo Randjeovic IV-1\paleta3\obj\Debug\paleta3.csproj.AssemblyReference.cache
+D:\4-1\Mihajlo Randjeovic IV-1\paleta3\obj\Debug\paleta3.csproj.SuggestedBindingRedirects.cache
+D:\4-1\Mihajlo Randjeovic IV-1\paleta3\obj\Debug\paleta3.Form1.resources
+D:\4-1\Mihajlo Randjeovic IV-1\paleta3\obj\Debug\paleta3.Properties.Resources.resources
+D:\4-1\Mihajlo Randjeovic IV-1\paleta3\obj\Debug\paleta3.csproj.GenerateResource.cache
+D:\4-1\Mihajlo Randjeovic IV-1\paleta3\obj\Debug\paleta3.csproj.CoreCompileInputs.cache
+D:\4-1\Mihajlo Randjeovic IV-1\paleta3\obj\Debug\paleta3.exe
+D:\4-1\Mihajlo Randjeovic IV-1\paleta3\obj\Debug\paleta3.pdb

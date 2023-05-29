@@ -1,0 +1,205 @@
+rad sa grafikom
+
+svaka kontrola forma komandno dugme moze predstavljati povrsinu za crtanje
+sastoji se od tacaka  i svaka od njih ima svoje koordinate	
+
+klaasa pen 
+
+boja se predstavlja tako sto se navede njen naziv za neke osnovne nijanse ili kao niz od 3 cela broja cije su vrednosti od 0 do 255 i predstavljaju 
+intenzitet osvetljaja za r,g,b
+
+
+metode za crtanje osnovnih oblika 
+
+
+
+SqlCommand
+ExecuteReader koristi se kada sql komanda koja treba da se izvrsi daje skup redova iz jedne ili vise povezanih tabela - virtuelna tabela
+
+
+ExecuteScaler koristi se kada je rezultat izvrsenja sql komande pojedinacni podatak. rezultat je tipa object pa se pre koriscenja mora pretvoriti 
+u zeljeni tip podataka
+
+SqlCommand cmd= new SqlCommand();
+cmd.Text="SELECT COUNT(uc_ID) FROM Skola";
+cmd.Connection=conn;
+
+int bruc=(int) cmd.ExecuteScaler();
+
+
+    
+
+
+ExecuteNonQuery sql komande koje nemaju rezultat(insert,delete,update) rezultat jedino moze biti ceo broj koji predstavlja broj modifikovanih redova 
+u bazi
+pre poziva treba pitati korisnika da potvrdi brisanje jer posle toga nema povratka podataka
+
+
+Ukoliko sql komanda ili stored procedura ima parametre pre izvrsenja bilo koje metode za komandni objekat moraju se
+komandom objektu dodati vrednosti tih parametra
+komandini objekat ima kolekciju parameters u koju treba dodati po jedan clan za svaki parametar sql komande
+
+
+
+
+
+Drugi nacin
+cmd.Parameters.AddWithValue("@ID",150);
+
+
+
+
+
+                                                STRINGOVI
+
+
+string(niz simbola) u C# je objekat tipa String
+U imenskom prostoru dodajemo System.String
+podrazumevana vrednost za podatak tipa string je null
+string s1; vrednost je null
+string s1="";vrednost nije null nego je string prazan
+s1=String.Empty;
+promenjive tipa string su ReadOnly
+                                     Inicijalizovanje stringova(dodela vrednosti)
+
+
+
+System.String s1="Ovo je neki tekst";
+char[] nizs={'o','v','o','j','e',...};
+System.String s1=new String(nizs);
+
+                                   Svojstva i metode klase String
+
+
+Lenght- koliko ima znakova u stringu i to je ceo broj
+
+int n=s1.Lenght;
+
+
+
+Metode klase string mogu da budu staticke(odnose se na celu klasu i pozivaju na izvrsenje String.nazivmetode())
+i mogu biti "preklopljene"-postoji vise metoda sa istim imenom ali sa razlicitim brojem argumenata i nestaticke 
+pozivaju se na izvrsenje kao s1.nazivmetode()
+
+
+                                 Poredjenje stringova
+koristi se metoda Compare()   Radi se o statickoj metodi i ima nekoliko verzija koje se mogu pozvati sa razlicitim parametrima
+
+poredjenje se vrsi alfabetski nad slovima i numericki na bilo kojim ciframa koji se pojave u stringu, rezultat je ceo broj(int) 
+i to int rezultat=String.Compare(s1,s2);
+1- "s1>s2"
+0 - "s1=s2"
+-1 - "s1<s2"
+
+                                 Poredjenje delova stringova
+
+Compare(s1,i1,s2,i2,n)
+int rez=String.Compare("Hello World", 6, "Goodbye World",8,5);
+
+
+                               Spajanje stringova
+
+s3 = String.Concat(s1,s2,...);
+                                
+                                  Kopiranje stringova
+
+s2=String.Copy(s1);
+s2=s1;   
+
+                              Metoda za poredjenje stringova
+
+Equals() - Daje rezultat true-false postoji i kao staticka i kao metoda instance(objekta)                      
+
+
+
+moze se koristiti i preoptereceni operator ==
+
+
+                            Spajanje stringova metodom Join
+
+spaja vise stringova u jedan i izmedju njih umece string koji ima ulogu separatora
+string[] reci={"to","be","or","not","to","be"}
+string izraz=String.Join(".", reci);
+
+
+                            Deljenje ili cepanje stringova na podstringove
+Kao rezultat daje niz stringova koriscenjem separatora za identifikaciju na kojim mestima se originalni string
+treba podeliti
+
+string[] rez=izraz.Split("o");
+
+                                 Provera pocetka i kraja stringa
+
+Ovim metodama mozemo proveriti da li string pocinje odnosno da li se zavrsava  nekim podstringom  
+.StartsWith
+.EndsWith
+
+                                 Pronalazenje podstringa u stringu
+
+Metode:
+Indexof()
+LastIndexof()
+Kao rezultat daju index   
+ukoliko podstring ne postoji rezultat ovih funkcija je -1
+Moguce je u ovim funkcijama poceti od nekog navedenog indeksa kao i broj znakova koje treba pretraziti                            
+
+                               Umetanje podstringa u string
+
+string s;
+s.Insert(index,podstring);
+s.Insert(5,"Hello");
+                    
+                               Uklanjanje znakova iz stringa
+s.Remove(startIndex,duzina)
+s.Remove(5,5);       
+
+                                   Zamena znakova u stringu         
+
+
+
+
+
+
+
+                                      Rad u diskonektovanom okruzenju        
+                                              DataSet
+
+postoje 2 vrste objekata dataset:
+1)typed dataset zahteva XLS sema baze podataka 
+2)untyped dataset 
+ako koristimo tipski dataset vrsi se provera tipova svih podataka u tabelama 
+prilikom pokusaja njihovog azuriranja tako da greska moze da se uoci jos
+prilikom prevodjenja programa u suprotnom greska ce biti otkrivena tek prilikom izvrsenja
+u pogledu funkcionalnosti tipizirani objekat dataset svoje tabele i kolone tretira kao svojstva
+ovim se rad sa objektom sintaksno  veoma olaksava 
+                                       pravljenje obejakta klase dataset 
+                                       
+
+
+
+                                             string builder
+omugacava rad sa dinamickim stringovima kod kojih je za razliku od obicnih reguralnih stringova
+moguce direktno menjati pojedine simbole u stringu
+                                             kreiranje objekta
+inicijalni kapacitet moze se zadati prilikom poziva konstruktora
+takodje moze se ograniciti i maksimalan kapacitet
+
+
+metoda apend()
+dodaje na kraj objekta promenljivu ili objelte razlicitih ugradhjenih tipova od kojih se svaki konvertuje u string
+  
+
+metoda insert()
+umece string dobijen od podataka ili podataka konvertovane u string od pozicije koji se navodi kao argument
+u pozivu metode
+
+
+
+                                          svojstva klase DataSet
+Tables 
+Kolekcija objekata tipa DataTable
+
+Relations 
+Kolekcija objekata tipa DataRelations
+EnforceConstraints bool
+HasErrors Da li postoje greske u objektima DataRow

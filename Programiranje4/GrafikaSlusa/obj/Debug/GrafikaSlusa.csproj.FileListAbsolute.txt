@@ -1,0 +1,11 @@
+D:\4-1\Mihajlo Randjeovic IV-1\GrafikaSlusa\bin\Debug\GrafikaSlusa.exe.config
+D:\4-1\Mihajlo Randjeovic IV-1\GrafikaSlusa\bin\Debug\GrafikaSlusa.exe
+D:\4-1\Mihajlo Randjeovic IV-1\GrafikaSlusa\bin\Debug\GrafikaSlusa.pdb
+D:\4-1\Mihajlo Randjeovic IV-1\GrafikaSlusa\obj\Debug\GrafikaSlusa.csproj.AssemblyReference.cache
+D:\4-1\Mihajlo Randjeovic IV-1\GrafikaSlusa\obj\Debug\GrafikaSlusa.csproj.SuggestedBindingRedirects.cache
+D:\4-1\Mihajlo Randjeovic IV-1\GrafikaSlusa\obj\Debug\GrafikaSlusa.Form1.resources
+D:\4-1\Mihajlo Randjeovic IV-1\GrafikaSlusa\obj\Debug\GrafikaSlusa.Properties.Resources.resources
+D:\4-1\Mihajlo Randjeovic IV-1\GrafikaSlusa\obj\Debug\GrafikaSlusa.csproj.GenerateResource.cache
+D:\4-1\Mihajlo Randjeovic IV-1\GrafikaSlusa\obj\Debug\GrafikaSlusa.csproj.CoreCompileInputs.cache
+D:\4-1\Mihajlo Randjeovic IV-1\GrafikaSlusa\obj\Debug\GrafikaSlusa.exe
+D:\4-1\Mihajlo Randjeovic IV-1\GrafikaSlusa\obj\Debug\GrafikaSlusa.pdb

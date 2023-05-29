@@ -1,0 +1,11 @@
+D:\4-1\Mihajlo Randjeovic IV-1\Kontrolni Todor Simic\bin\Debug\Kontrolni Todor Simic.exe.config
+D:\4-1\Mihajlo Randjeovic IV-1\Kontrolni Todor Simic\bin\Debug\Kontrolni Todor Simic.exe
+D:\4-1\Mihajlo Randjeovic IV-1\Kontrolni Todor Simic\bin\Debug\Kontrolni Todor Simic.pdb
+D:\4-1\Mihajlo Randjeovic IV-1\Kontrolni Todor Simic\obj\Debug\Kontrolni Todor Simic.csproj.AssemblyReference.cache
+D:\4-1\Mihajlo Randjeovic IV-1\Kontrolni Todor Simic\obj\Debug\Kontrolni Todor Simic.csproj.SuggestedBindingRedirects.cache
+D:\4-1\Mihajlo Randjeovic IV-1\Kontrolni Todor Simic\obj\Debug\Kontrolni_Todor_Simic.Form1.resources
+D:\4-1\Mihajlo Randjeovic IV-1\Kontrolni Todor Simic\obj\Debug\Kontrolni_Todor_Simic.Properties.Resources.resources
+D:\4-1\Mihajlo Randjeovic IV-1\Kontrolni Todor Simic\obj\Debug\Kontrolni Todor Simic.csproj.GenerateResource.cache
+D:\4-1\Mihajlo Randjeovic IV-1\Kontrolni Todor Simic\obj\Debug\Kontrolni Todor Simic.csproj.CoreCompileInputs.cache
+D:\4-1\Mihajlo Randjeovic IV-1\Kontrolni Todor Simic\obj\Debug\Kontrolni Todor Simic.exe
+D:\4-1\Mihajlo Randjeovic IV-1\Kontrolni Todor Simic\obj\Debug\Kontrolni Todor Simic.pdb

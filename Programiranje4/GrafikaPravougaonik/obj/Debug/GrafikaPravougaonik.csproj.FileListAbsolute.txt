@@ -1,0 +1,11 @@
+D:\4-1\Mihajlo Randjeovic IV-1\GrafikaPravougaonik\obj\Debug\GrafikaPravougaonik.csproj.AssemblyReference.cache
+D:\4-1\Mihajlo Randjeovic IV-1\GrafikaPravougaonik\obj\Debug\GrafikaPravougaonik.csproj.SuggestedBindingRedirects.cache
+D:\4-1\Mihajlo Randjeovic IV-1\GrafikaPravougaonik\obj\Debug\GrafikaPravougaonik.Form1.resources
+D:\4-1\Mihajlo Randjeovic IV-1\GrafikaPravougaonik\obj\Debug\GrafikaPravougaonik.Properties.Resources.resources
+D:\4-1\Mihajlo Randjeovic IV-1\GrafikaPravougaonik\obj\Debug\GrafikaPravougaonik.csproj.GenerateResource.cache
+D:\4-1\Mihajlo Randjeovic IV-1\GrafikaPravougaonik\obj\Debug\GrafikaPravougaonik.csproj.CoreCompileInputs.cache
+D:\4-1\Mihajlo Randjeovic IV-1\GrafikaPravougaonik\bin\Debug\GrafikaPravougaonik.exe.config
+D:\4-1\Mihajlo Randjeovic IV-1\GrafikaPravougaonik\bin\Debug\GrafikaPravougaonik.exe
+D:\4-1\Mihajlo Randjeovic IV-1\GrafikaPravougaonik\bin\Debug\GrafikaPravougaonik.pdb
+D:\4-1\Mihajlo Randjeovic IV-1\GrafikaPravougaonik\obj\Debug\GrafikaPravougaonik.exe
+D:\4-1\Mihajlo Randjeovic IV-1\GrafikaPravougaonik\obj\Debug\GrafikaPravougaonik.pdb

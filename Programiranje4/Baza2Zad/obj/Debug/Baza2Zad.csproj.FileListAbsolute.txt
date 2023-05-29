@@ -1,0 +1,11 @@
+D:\4-1\Mihajlo Randjeovic IV-1\Baza2Zad\obj\Debug\Baza2Zad.csproj.AssemblyReference.cache
+D:\4-1\Mihajlo Randjeovic IV-1\Baza2Zad\obj\Debug\Baza2Zad.csproj.SuggestedBindingRedirects.cache
+D:\4-1\Mihajlo Randjeovic IV-1\Baza2Zad\obj\Debug\Baza2Zad.Form1.resources
+D:\4-1\Mihajlo Randjeovic IV-1\Baza2Zad\obj\Debug\Baza2Zad.Properties.Resources.resources
+D:\4-1\Mihajlo Randjeovic IV-1\Baza2Zad\obj\Debug\Baza2Zad.csproj.GenerateResource.cache
+D:\4-1\Mihajlo Randjeovic IV-1\Baza2Zad\obj\Debug\Baza2Zad.csproj.CoreCompileInputs.cache
+D:\4-1\Mihajlo Randjeovic IV-1\Baza2Zad\bin\Debug\Baza2Zad.exe.config
+D:\4-1\Mihajlo Randjeovic IV-1\Baza2Zad\bin\Debug\Baza2Zad.exe
+D:\4-1\Mihajlo Randjeovic IV-1\Baza2Zad\bin\Debug\Baza2Zad.pdb
+D:\4-1\Mihajlo Randjeovic IV-1\Baza2Zad\obj\Debug\Baza2Zad.exe
+D:\4-1\Mihajlo Randjeovic IV-1\Baza2Zad\obj\Debug\Baza2Zad.pdb

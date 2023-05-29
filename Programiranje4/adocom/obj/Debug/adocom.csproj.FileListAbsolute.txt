@@ -1,0 +1,11 @@
+D:\4-1\Mihajlo Randjeovic IV-1\adocom\bin\Debug\adocom.exe.config
+D:\4-1\Mihajlo Randjeovic IV-1\adocom\bin\Debug\adocom.exe
+D:\4-1\Mihajlo Randjeovic IV-1\adocom\bin\Debug\adocom.pdb
+D:\4-1\Mihajlo Randjeovic IV-1\adocom\obj\Debug\adocom.csproj.AssemblyReference.cache
+D:\4-1\Mihajlo Randjeovic IV-1\adocom\obj\Debug\adocom.csproj.SuggestedBindingRedirects.cache
+D:\4-1\Mihajlo Randjeovic IV-1\adocom\obj\Debug\adocom.Form1.resources
+D:\4-1\Mihajlo Randjeovic IV-1\adocom\obj\Debug\adocom.Properties.Resources.resources
+D:\4-1\Mihajlo Randjeovic IV-1\adocom\obj\Debug\adocom.csproj.GenerateResource.cache
+D:\4-1\Mihajlo Randjeovic IV-1\adocom\obj\Debug\adocom.csproj.CoreCompileInputs.cache
+D:\4-1\Mihajlo Randjeovic IV-1\adocom\obj\Debug\adocom.exe
+D:\4-1\Mihajlo Randjeovic IV-1\adocom\obj\Debug\adocom.pdb

@@ -1,0 +1,11 @@
+D:\4-1\Mihajlo Randjeovic IV-1\sredinakrug\bin\Debug\sredinakrug.exe.config
+D:\4-1\Mihajlo Randjeovic IV-1\sredinakrug\bin\Debug\sredinakrug.exe
+D:\4-1\Mihajlo Randjeovic IV-1\sredinakrug\bin\Debug\sredinakrug.pdb
+D:\4-1\Mihajlo Randjeovic IV-1\sredinakrug\obj\Debug\sredinakrug.csproj.AssemblyReference.cache
+D:\4-1\Mihajlo Randjeovic IV-1\sredinakrug\obj\Debug\sredinakrug.csproj.SuggestedBindingRedirects.cache
+D:\4-1\Mihajlo Randjeovic IV-1\sredinakrug\obj\Debug\sredinakrug.Form1.resources
+D:\4-1\Mihajlo Randjeovic IV-1\sredinakrug\obj\Debug\sredinakrug.Properties.Resources.resources
+D:\4-1\Mihajlo Randjeovic IV-1\sredinakrug\obj\Debug\sredinakrug.csproj.GenerateResource.cache
+D:\4-1\Mihajlo Randjeovic IV-1\sredinakrug\obj\Debug\sredinakrug.csproj.CoreCompileInputs.cache
+D:\4-1\Mihajlo Randjeovic IV-1\sredinakrug\obj\Debug\sredinakrug.exe
+D:\4-1\Mihajlo Randjeovic IV-1\sredinakrug\obj\Debug\sredinakrug.pdb

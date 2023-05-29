@@ -1,0 +1,11 @@
+D:\4-1\Mihajlo Randjeovic IV-1\datagridview23jan23\bin\Debug\datagridview23jan23.exe.config
+D:\4-1\Mihajlo Randjeovic IV-1\datagridview23jan23\bin\Debug\datagridview23jan23.exe
+D:\4-1\Mihajlo Randjeovic IV-1\datagridview23jan23\bin\Debug\datagridview23jan23.pdb
+D:\4-1\Mihajlo Randjeovic IV-1\datagridview23jan23\obj\Debug\datagridview23jan23.csproj.AssemblyReference.cache
+D:\4-1\Mihajlo Randjeovic IV-1\datagridview23jan23\obj\Debug\datagridview23jan23.csproj.SuggestedBindingRedirects.cache
+D:\4-1\Mihajlo Randjeovic IV-1\datagridview23jan23\obj\Debug\datagridview23jan23.Form1.resources
+D:\4-1\Mihajlo Randjeovic IV-1\datagridview23jan23\obj\Debug\datagridview23jan23.Properties.Resources.resources
+D:\4-1\Mihajlo Randjeovic IV-1\datagridview23jan23\obj\Debug\datagridview23jan23.csproj.GenerateResource.cache
+D:\4-1\Mihajlo Randjeovic IV-1\datagridview23jan23\obj\Debug\datagridview23jan23.csproj.CoreCompileInputs.cache
+D:\4-1\Mihajlo Randjeovic IV-1\datagridview23jan23\obj\Debug\datagridview23jan23.exe
+D:\4-1\Mihajlo Randjeovic IV-1\datagridview23jan23\obj\Debug\datagridview23jan23.pdb

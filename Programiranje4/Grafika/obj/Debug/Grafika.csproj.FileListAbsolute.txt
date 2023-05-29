@@ -1,0 +1,11 @@
+D:\4-1\Mihajlo Randjeovic IV-1\Grafika\bin\Debug\Grafika.exe.config
+D:\4-1\Mihajlo Randjeovic IV-1\Grafika\bin\Debug\Grafika.exe
+D:\4-1\Mihajlo Randjeovic IV-1\Grafika\bin\Debug\Grafika.pdb
+D:\4-1\Mihajlo Randjeovic IV-1\Grafika\obj\Debug\Grafika.csproj.AssemblyReference.cache
+D:\4-1\Mihajlo Randjeovic IV-1\Grafika\obj\Debug\Grafika.csproj.SuggestedBindingRedirects.cache
+D:\4-1\Mihajlo Randjeovic IV-1\Grafika\obj\Debug\Grafika.Form1.resources
+D:\4-1\Mihajlo Randjeovic IV-1\Grafika\obj\Debug\Grafika.Properties.Resources.resources
+D:\4-1\Mihajlo Randjeovic IV-1\Grafika\obj\Debug\Grafika.csproj.GenerateResource.cache
+D:\4-1\Mihajlo Randjeovic IV-1\Grafika\obj\Debug\Grafika.csproj.CoreCompileInputs.cache
+D:\4-1\Mihajlo Randjeovic IV-1\Grafika\obj\Debug\Grafika.exe
+D:\4-1\Mihajlo Randjeovic IV-1\Grafika\obj\Debug\Grafika.pdb
